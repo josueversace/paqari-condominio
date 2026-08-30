@@ -91,58 +91,67 @@ export function Masterplan() {
                 </div>
             </div>
 
-            <!-- Layout 401 Grid: 3 Phases + Signup Form Card -->
-            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-8">
+            <!-- Layout Grid: 3 Compact Phases (1 col x 3 rows on mobile) + Signup Form Card -->
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 pt-4 sm:pt-8">
                 
                 <!-- Card 1: Fase 1 -->
-                <div class="bg-white border border-navy/10 p-8 flex flex-col justify-between min-h-[300px] shadow-sm text-navy">
-                    <div class="space-y-4">
-                        <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase">FASE 1</span>
-                        <h3 class="text-lg font-headline font-bold text-navy uppercase tracking-wide">Preventa Fundador</h3>
-                        <p class="text-navy/70 text-xs font-body leading-relaxed">
+                <div class="bg-white border border-navy/10 p-4 sm:p-7 flex flex-col justify-between min-h-0 sm:min-h-[280px] shadow-sm text-navy gap-2.5">
+                    <div class="space-y-1 sm:space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-[8.5px] sm:text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase">FASE 1</span>
+                            <span class="text-[8.5px] font-headline font-bold text-navy/50 tracking-wider uppercase sm:hidden">80% COMPRADO</span>
+                        </div>
+                        <h3 class="text-sm sm:text-lg font-headline font-bold text-navy uppercase tracking-wide">Preventa Fundador</h3>
+                        <p class="text-navy/70 text-[11px] sm:text-xs font-body leading-relaxed">
                             Lotes exclusivos a precio inicial de pre-lanzamiento ($18,000 USD). La mayor plusvalía asegurada. Últimos 10 lotes.
                         </p>
                     </div>
-                    <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase">80% COMPRADO</div>
+                    <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase hidden sm:block">80% COMPRADO</div>
                 </div>
                 
                 <!-- Card 2: Fase 2 -->
-                <div class="bg-white border border-navy/10 p-8 flex flex-col justify-between min-h-[300px] shadow-sm text-navy">
-                    <div class="space-y-4">
-                        <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase">FASE 2</span>
-                        <h3 class="text-lg font-headline font-bold text-navy uppercase tracking-wide">Habilitación</h3>
-                        <p class="text-navy/70 text-xs font-body leading-relaxed">
+                <div class="bg-white border border-navy/10 p-4 sm:p-7 flex flex-col justify-between min-h-0 sm:min-h-[280px] shadow-sm text-navy gap-2.5">
+                    <div class="space-y-1 sm:space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-[8.5px] sm:text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase">FASE 2</span>
+                            <span class="text-[8.5px] font-headline font-bold text-navy/50 tracking-wider uppercase sm:hidden">EN PROCESO</span>
+                        </div>
+                        <h3 class="text-sm sm:text-lg font-headline font-bold text-navy uppercase tracking-wide">Habilitación</h3>
+                        <p class="text-navy/70 text-[11px] sm:text-xs font-body leading-relaxed">
                             Apertura de vías afirmadas, instalación subterránea de servicios básicos (luz y agua) y pórtico de ingreso controlado.
                         </p>
                     </div>
-                    <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase">EN PROCESO</div>
+                    <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase hidden sm:block">EN PROCESO</div>
                 </div>
                 
                 <!-- Card 3: Fase 3 -->
-                <div class="bg-white border border-navy/10 p-8 flex flex-col justify-between min-h-[300px] shadow-sm text-navy">
-                    <div class="space-y-4">
-                        <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase">FASE 3</span>
-                        <h3 class="text-lg font-headline font-bold text-navy uppercase tracking-wide">Áreas Comunes</h3>
-                        <p class="text-navy/70 text-xs font-body leading-relaxed">
+                <div class="bg-white border border-navy/10 p-4 sm:p-7 flex flex-col justify-between min-h-0 sm:min-h-[280px] shadow-sm text-navy gap-2.5">
+                    <div class="space-y-1 sm:space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="text-[8.5px] sm:text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase">FASE 3</span>
+                            <span class="text-[8.5px] font-headline font-bold text-navy/50 tracking-wider uppercase sm:hidden">PLANEADO</span>
+                        </div>
+                        <h3 class="text-sm sm:text-lg font-headline font-bold text-navy uppercase tracking-wide">Áreas Comunes</h3>
+                        <p class="text-navy/70 text-[11px] sm:text-xs font-body leading-relaxed">
                             Construcción del Club House, habilitación de muelles flotantes en la Laguna Azul y decks sociales de meditación.
                         </p>
                     </div>
-                    <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase">PLANEADO</div>
+                    <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase hidden sm:block">PLANEADO</div>
                 </div>
                 
                 <!-- Card 4: Form Brochure Signup (Dark Navy contrast card for conversion power!) -->
-                <div class="bg-navy p-8 flex flex-col justify-between border border-[#1e293b] min-h-[320px] text-white shadow-xl">
-                    <div class="space-y-2">
-                        <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase">Brochure PDF</span>
-                        <h3 class="text-lg font-headline font-extrabold uppercase tracking-wide text-white">Sé parte de PAQARI</h3>
+                <div class="bg-navy p-5 sm:p-8 flex flex-col justify-between border border-[#1e293b] min-h-0 sm:min-h-[320px] text-white shadow-xl">
+                    <div class="space-y-1 sm:space-y-2">
+                        <span class="text-[8.5px] sm:text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase">Brochure PDF</span>
+                        <h3 class="text-base sm:text-lg font-headline font-extrabold uppercase tracking-wide text-white">Sé parte de PAQARI</h3>
                         <p class="text-white/70 text-[11px] font-body leading-normal">Recibe los planos y la lista de precios en tu WhatsApp.</p>
                     </div>
                     
-                    <form id="form-contacto" class="space-y-2.5 mt-4">
-                        <input name="nombre" class="w-full bg-white/10 border border-white/15 px-4 py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="Nombre Completo" type="text" required />
-                        <input name="correo" class="w-full bg-white/10 border border-white/15 px-4 py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="Tu mejor correo" type="email" required />
-                        <input name="whatsapp" class="w-full bg-white/10 border border-white/15 px-4 py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="WhatsApp" type="tel" required />
-                        <button id="btn-submit" class="w-full bg-sun text-navy py-3 font-headline font-extrabold text-[10px] tracking-widest hover:bg-[#cda557] transition-all uppercase" type="submit">
+                    <form id="form-contacto" class="space-y-2 sm:space-y-2.5 mt-3 sm:mt-4">
+                        <input name="nombre" class="w-full bg-white/10 border border-white/15 px-3 sm:px-4 py-2 sm:py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="Nombre Completo" type="text" required />
+                        <input name="correo" class="w-full bg-white/10 border border-white/15 px-3 sm:px-4 py-2 sm:py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="Tu mejor correo" type="email" required />
+                        <input name="whatsapp" class="w-full bg-white/10 border border-white/15 px-3 sm:px-4 py-2 sm:py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="WhatsApp" type="tel" required />
+                        <button id="btn-submit" class="w-full bg-sun text-navy py-2.5 sm:py-3 font-headline font-extrabold text-[10px] tracking-widest hover:bg-[#cda557] transition-all uppercase" type="submit">
                             DESCARGAR BROCHURE
                         </button>
                     </form>
