@@ -569,17 +569,22 @@ const initGsapAnimations = () => {
     });
 
     // 8. FAQ Accordion (ScrollTrigger)
-    gsap.from('#faq details', {
-        opacity: 0,
-        y: 20,
-        stagger: 0.1,
-        duration: 0.8,
-        ease: 'power3.out',
-        scrollTrigger: {
-            trigger: '#faq',
-            start: 'top 75%'
+    gsap.fromTo('#faq details', 
+        { opacity: 0, y: 15 },
+        {
+            opacity: 1,
+            y: 0,
+            stagger: 0.08,
+            duration: 0.5,
+            ease: 'power2.out',
+            clearProps: 'all',
+            scrollTrigger: {
+                trigger: '#faq',
+                start: 'top 90%',
+                toggleActions: 'play none none none'
+            }
         }
-    });
+    );
 
     // 9. Desktop Pinned Horizontal Gallery Scroll (Locomotive/WSL style)
     const mm = gsap.matchMedia();

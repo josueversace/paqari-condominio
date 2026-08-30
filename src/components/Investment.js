@@ -8,90 +8,145 @@ export function Investment() {
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
                 
                 <!-- Left Column: Investment context (Short & Long term details) -->
-                <div class="lg:col-span-7 space-y-10">
-                    <div class="space-y-4">
+                <div class="lg:col-span-6 space-y-8">
+                    <div class="space-y-3">
                         <span class="text-xs font-headline font-extrabold text-sun tracking-[0.2em] uppercase">Plusvalía & Retorno</span>
-                        <h2 class="text-[clamp(2.5rem,8vw,3.75rem)] font-headline font-extrabold leading-[1.0] uppercase tracking-tighter">
+                        <h2 class="text-[clamp(2.25rem,6vw,3.5rem)] font-headline font-extrabold leading-[1.05] uppercase tracking-tighter">
                             Invierte en el<br/>
                             <span class="text-sun font-serif italic lowercase tracking-tight">futuro de Sauce.</span>
                         </h2>
                     </div>
 
                     <!-- Short-term block -->
-                    <div class="space-y-3">
-                        <h3 class="text-xl font-headline font-bold text-white uppercase tracking-wide flex items-center gap-2">
-                            <span class="material-symbols-outlined text-sun text-xl">add_road</span>
-                            Corto Plazo: Plusvalía por Infraestructura
+                    <div class="space-y-2 sm:space-y-2.5">
+                        <h3 class="text-base sm:text-lg md:text-xl font-headline font-bold text-white uppercase tracking-wide flex items-center gap-2">
+                            <span class="material-symbols-outlined text-sun text-lg sm:text-xl">connecting_airports</span>
+                            Corto Plazo: Megainfraestructura & Conectividad
                         </h3>
-                        <p class="text-white/60 font-body text-sm leading-relaxed">
-                            <strong>El "Efecto Puente".</strong> La construcción del puente vehicular sobre el río Huallaga y el asfaltado de la vía principal a Sauce (inversión pública de 218 millones de soles) elevarán exponencialmente el valor de la tierra. Comprar hoy a $60/m² asegura ganancias inmediatas a medida que avanzan las obras.
+                        <p class="text-white/70 font-body text-xs sm:text-sm leading-relaxed">
+                            <strong>Conectividad Directa y Teleférico.</strong> La pavimentación de la vía de acceso, el puente vehicular sobre el río Huallaga y el proyectado <strong>teleférico turístico de Sauce</strong> están transformando la accesibilidad de la zona. Adquirir tu lote hoy a precio de preventa ($60/m²) asegura una valorización acelerada mientras se ejecutan estas grandes obras.
                         </p>
                     </div>
 
                     <!-- Long-term block -->
-                    <div class="space-y-3">
-                        <h3 class="text-xl font-headline font-bold text-white uppercase tracking-wide flex items-center gap-2">
-                            <span class="material-symbols-outlined text-sun text-xl">travel_explore</span>
-                            Largo Plazo: El Boom Turístico de Sauce
+                    <div class="space-y-2 sm:space-y-2.5">
+                        <h3 class="text-base sm:text-lg md:text-xl font-headline font-bold text-white uppercase tracking-wide flex items-center gap-2">
+                            <span class="material-symbols-outlined text-sun text-lg sm:text-xl">travel_explore</span>
+                            Largo Plazo: Alta Rentabilidad Vacacional
                         </h3>
-                        <p class="text-white/60 font-body text-sm leading-relaxed">
-                            <strong>Ocupación por Alquiler.</strong> Sauce es el principal destino turístico de San Martín. La alta demanda vacacional asegura un flujo continuo de turistas. Habilitar tu bungalow o cabaña en PAQARI para plataformas como Airbnb garantiza retornos estables y ocupación constante de por vida.
+                        <p class="text-white/70 font-body text-xs sm:text-sm leading-relaxed">
+                            <strong>Ingresos Pasivos en Dólares.</strong> Sauce se consolida como el destino ecoturístico por excelencia de la selva peruana. Diseñar tu cabaña o bungalow en PAQARI para plataformas como Airbnb te permitirá captar el flujo continuo de turistas atraídos por la Laguna Azul y los nuevos atractivos, garantizando rentas periódicas y plusvalía de por vida.
                         </p>
                     </div>
 
                     <!-- Contact/CTA Button -->
-                    <div class="pt-4">
+                    <div class="pt-2">
                         <a href="https://wa.me/51962387203?text=Vengo%20desde%20la%20web%2C%20me%20interesa%20invertir%20en%20PAQARI" target="_blank"
-                           class="inline-flex items-center gap-3 px-8 py-5 border border-white/20 bg-white/5 text-white font-headline font-bold text-xs tracking-widest hover:bg-white hover:text-navy hover:border-white transition-all shadow-2xl">
+                           class="inline-flex items-center gap-3 px-8 py-4 border border-white/20 bg-white/5 text-white font-headline font-bold text-xs tracking-widest hover:bg-white hover:text-navy hover:border-white transition-all shadow-2xl">
                             <span>COTIZAR PREVENTA</span>
                             <span class="material-symbols-outlined text-sm">navigate_next</span>
                         </a>
                     </div>
                 </div>
 
-                <!-- Right Column: Interactive Projection Bar Chart -->
-                <div class="lg:col-span-5 bg-white/5 border border-white/10 p-8 flex flex-col justify-between min-h-[400px]">
-                    <div class="space-y-2">
-                        <div class="flex items-center gap-3">
-                            <span class="material-symbols-outlined text-sun text-2xl">trending_up</span>
-                            <div>
-                                <h4 class="font-headline font-bold text-base text-white uppercase tracking-wider">Proyección de Valorización</h4>
-                                <p class="text-white/50 text-[10px] uppercase font-body tracking-widest">Valor estimado por m² en dólares</p>
-                            </div>
+                <!-- Right Column: Proyección de Valorización (Matching Reference Design) -->
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="space-y-1">
+                        <div class="flex items-center gap-2.5 text-sun">
+                            <span class="material-symbols-outlined text-2xl">trending_up</span>
+                            <h4 class="font-headline font-extrabold text-base sm:text-lg uppercase tracking-wider text-white">
+                                Proyección de <span class="text-sun">Valorización</span>
+                            </h4>
                         </div>
+                        <p class="text-white/70 text-xs sm:text-sm font-body">
+                            Estimación de incremento del valor del metro cuadrado (USD):
+                        </p>
                     </div>
 
-                    <!-- BAR CHART -->
-                    <div class="flex items-end gap-4 h-56 pt-12 pb-2">
-                        <!-- Bar 1 -->
-                        <div class="investment-bar group/bar relative flex-1 bg-white/10 h-[35%] hover:-translate-y-2 transition-all duration-300 ease-out flex flex-col justify-end p-3 items-center cursor-pointer border border-transparent hover:border-white/20 shadow-lg">
-                            <div class="absolute -top-12 opacity-0 group-hover/bar:opacity-100 transition-all duration-300 translate-y-2 group-hover/bar:translate-y-0 bg-white text-navy text-[10px] px-3 py-1.5 font-bold whitespace-nowrap pointer-events-none z-20">
-                                Precio base preventa
-                                <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-white"></div>
-                            </div>
-                            <span class="text-lg font-headline font-bold transition-transform duration-300 group-hover/bar:scale-110 text-white">$60</span>
-                            <span class="text-[8px] font-headline font-extrabold tracking-wider text-white/50 mt-1">HOY</span>
-                        </div>
+                    <!-- 3 Gold Bordered Cards Grid (3 Columns, 1 Row, Larger Elements, Compact Height) -->
+                    <div class="grid grid-cols-3 gap-2 sm:gap-4">
                         
-                        <!-- Bar 2 -->
-                        <div class="investment-bar group/bar relative flex-1 bg-white/25 h-[65%] hover:-translate-y-2 transition-all duration-300 ease-out flex flex-col justify-end p-3 items-center cursor-pointer border border-transparent hover:border-white/30 shadow-lg">
-                            <div class="absolute -top-12 opacity-0 group-hover/bar:opacity-100 transition-all duration-300 translate-y-2 group-hover/bar:translate-y-0 bg-white text-navy text-[10px] px-3 py-1.5 font-bold whitespace-nowrap pointer-events-none z-20">
-                                Conexión del Puente + Vía
-                                <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-white"></div>
+                        <!-- Box 1: 01. HOY -->
+                        <div class="border border-sun/70 bg-[#121820]/50 py-3.5 px-2 sm:py-5 sm:px-4 text-center flex flex-col items-center justify-between hover:border-sun transition-all duration-300 shadow-lg group">
+                            <!-- Icon Pin -->
+                            <div class="text-sun group-hover:scale-110 transition-transform duration-300 mb-1 sm:mb-2">
+                                <svg class="w-8 h-8 sm:w-11 sm:h-11 stroke-[1.75]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
                             </div>
-                            <span class="text-lg font-headline font-bold transition-transform duration-300 group-hover/bar:scale-110 text-white">$90</span>
-                            <span class="text-[8px] font-headline font-extrabold tracking-wider text-white/50 mt-1">OBRA</span>
-                        </div>
-                        
-                        <!-- Bar 3 -->
-                        <div class="investment-bar group/bar relative flex-1 bg-sun h-[100%] hover:-translate-y-2 transition-all duration-300 ease-out flex flex-col justify-end p-3 items-center text-navy cursor-pointer shadow-lg hover:bg-[#cda557]">
-                            <div class="absolute -top-12 opacity-0 group-hover/bar:opacity-100 transition-all duration-300 translate-y-2 group-hover/bar:translate-y-0 bg-white text-navy text-[10px] px-3 py-1.5 font-bold whitespace-nowrap pointer-events-none z-20">
-                                Entrega de Condominio
-                                <div class="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-white"></div>
+                            
+                            <!-- Label -->
+                            <div class="text-[9px] sm:text-[11px] font-headline font-black tracking-wider sm:tracking-widest text-sun uppercase">
+                                01. HOY
                             </div>
-                            <span class="text-xl font-headline font-extrabold transition-transform duration-300 group-hover/bar:scale-110 text-navy">$120+</span>
-                            <span class="text-[8px] font-headline font-extrabold tracking-wider opacity-80 mt-1">FINAL</span>
+                            
+                            <!-- Price -->
+                            <div class="my-1 sm:my-1.5 flex items-baseline justify-center gap-0.5">
+                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$80</span>
+                                <span class="text-[10px] sm:text-xs text-white/70 font-semibold font-body">/m²</span>
+                            </div>
+                            
+                            <!-- Description -->
+                            <p class="text-[10px] sm:text-xs md:text-sm text-white/95 font-body font-medium leading-snug">
+                                Lanzamiento<br/>Exclusivo
+                            </p>
                         </div>
+
+                        <!-- Box 2: 02. OBRA -->
+                        <div class="border border-sun/70 bg-[#121820]/50 py-3.5 px-2 sm:py-5 sm:px-4 text-center flex flex-col items-center justify-between hover:border-sun transition-all duration-300 shadow-lg group">
+                            <!-- Icon Crane -->
+                            <div class="text-sun group-hover:scale-110 transition-transform duration-300 mb-1 sm:mb-2">
+                                <svg class="w-8 h-8 sm:w-11 sm:h-11 stroke-[1.75]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 21h16M7 21V5l10-2v2M7 9h10M7 13h10M7 17h10M17 5v8m-2 0h4"/>
+                                </svg>
+                            </div>
+                            
+                            <!-- Label + Badge -->
+                            <div class="flex items-center justify-center gap-1 sm:gap-1.5 text-[9px] sm:text-[11px] font-headline font-black tracking-wider sm:tracking-widest text-sun uppercase">
+                                <span>02. OBRA</span>
+                                <span class="bg-sun text-navy font-black text-[8px] sm:text-[9.5px] px-1 sm:px-1.5 py-0.2 tracking-normal">+50%</span>
+                            </div>
+                            
+                            <!-- Price -->
+                            <div class="my-1 sm:my-1.5 flex items-baseline justify-center gap-0.5">
+                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$120</span>
+                                <span class="text-[10px] sm:text-xs text-white/70 font-semibold font-body">/m²</span>
+                            </div>
+                            
+                            <!-- Description -->
+                            <p class="text-[10px] sm:text-xs md:text-sm text-white/95 font-body font-medium leading-snug">
+                                Apertura de<br/>Amenidades
+                            </p>
+                        </div>
+
+                        <!-- Box 3: 03. ENTREGA -->
+                        <div class="border border-sun/70 bg-[#121820]/50 py-3.5 px-2 sm:py-5 sm:px-4 text-center flex flex-col items-center justify-between hover:border-sun transition-all duration-300 shadow-lg group">
+                            <!-- Icon Key & House -->
+                            <div class="text-sun group-hover:scale-110 transition-transform duration-300 mb-1 sm:mb-2">
+                                <svg class="w-8 h-8 sm:w-11 sm:h-11 stroke-[1.75]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"/>
+                                </svg>
+                            </div>
+                            
+                            <!-- Label + Badge -->
+                            <div class="flex items-center justify-center gap-1 sm:gap-1.5 text-[9px] sm:text-[11px] font-headline font-black tracking-wider sm:tracking-widest text-sun uppercase">
+                                <span>03. ENTREGA</span>
+                                <span class="bg-sun text-navy font-black text-[8px] sm:text-[9.5px] px-1 sm:px-1.5 py-0.2 tracking-normal">+100%</span>
+                            </div>
+                            
+                            <!-- Price -->
+                            <div class="my-1 sm:my-1.5 flex items-baseline justify-center gap-0.5">
+                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$160+</span>
+                                <span class="text-[10px] sm:text-xs text-white/70 font-semibold font-body">/m²</span>
+                            </div>
+                            
+                            <!-- Description -->
+                            <p class="text-[10px] sm:text-xs md:text-sm text-white/95 font-body font-medium leading-snug">
+                                Inauguración<br/>Parque & Marina
+                            </p>
+                        </div>
+
                     </div>
                 </div>
                 
