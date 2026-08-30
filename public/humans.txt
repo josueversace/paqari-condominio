@@ -1,0 +1,14 @@
+/* TEAM */
+Agency: CONECTA
+Website: https://conecta2.lat
+Email: hola@conecta2.lat
+Location: Tarapoto / Lima, Perú
+Role: Strategy, UI/UX Design, Frontend Development & Automations
+
+/* SITE */
+Client: PAQARI Condominio Campestre
+Website: https://soypaqari.com
+Language: Spanish / Español
+Doctype: HTML5
+Standards: HTML5, CSS3, ES Modules, Tailwind CSS, GSAP, n8n Automations
+Last Update: 2026/08/30
