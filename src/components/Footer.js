@@ -44,13 +44,13 @@ export function Footer() {
                 </div>
                 <div class="space-y-2">
                     <h5 class="text-white font-headline font-bold uppercase tracking-widest text-[10px] text-sun">Sobre Nosotros</h5>
-                    <p>PAQARI es un desarrollo inmobiliario de alta gama especializado en habilitación urbana campestre y conservación del paisaje.</p>
+                    <p>ECORESIDENCIAL PAQARI es un desarrollo campestre autosostenible y exclusivo en Sauce (Tarapoto), diseñado para el descanso absoluto, la plusvalía y la conservación del paisaje.</p>
                 </div>
             </div>
 
             <!-- Bottom Row: Copyright & Agency Credit Footprint -->
             <div class="flex flex-col sm:flex-row justify-between items-center gap-4 border-t border-white/5 pt-8 text-[10px] text-white/40 uppercase tracking-widest font-body">
-                <div>© 2026 PAQARI CONDOMINIO CAMPESTRE. Todos los derechos reservados.</div>
+                <div>© 2026 ECORESIDENCIAL PAQARI. Todos los derechos reservados.</div>
                 <div class="flex items-center gap-1.5 lowercase first-letter:uppercase">
                     <span>desarrollado por</span>
                     <a href="https://conecta2.lat" target="_blank" rel="noopener noreferrer" class="text-sun/90 hover:text-sun font-headline font-bold uppercase tracking-wider transition-colors inline-flex items-center gap-0.5">

@@ -10,7 +10,7 @@ export function Masterplan() {
                     Masterplan & Vista 360°
                 </h2>
                 <p class="text-navy/70 font-body text-sm sm:text-base leading-relaxed">
-                    50 lotes residenciales únicos con pendiente natural frente a la Laguna Azul de Sauce. Explora el plano 3D o sumérgete en el tour 360° en tiempo real.
+                    Lotes campestres exclusivos desde 235 m² hasta 493 m² con pendiente natural frente a la Laguna Azul de Sauce (Tarapoto). Explora el plano 3D o sumérgete en el tour 360° en tiempo real.
                 </p>
             </div>
 
@@ -92,7 +92,7 @@ export function Masterplan() {
             </div>
 
             <!-- Layout 401 Grid: 3 Phases + Signup Form Card -->
-            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 pt-6 sm:pt-8">
+            <div id="masterplan-phases-grid" class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 pt-6 sm:pt-8">
                 
                 <!-- Card 1: Fase 1 -->
                 <div class="relative overflow-hidden bg-white border border-navy/10 p-5 sm:p-6 md:p-8 flex flex-col justify-between shadow-sm text-navy group hover:border-sun/50 transition-all">
@@ -103,9 +103,9 @@ export function Masterplan() {
                     
                     <div class="space-y-1.5 sm:space-y-3 relative z-10 pr-6 sm:pr-8">
                         <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase block">FASE 1</span>
-                        <h3 class="text-base sm:text-lg font-headline font-bold text-navy uppercase tracking-wide leading-tight">Preventa Fundador</h3>
+                        <h3 class="text-base sm:text-lg font-headline font-bold text-navy uppercase tracking-wide leading-tight">Preventa Lanzamiento</h3>
                         <p class="text-navy/70 text-xs font-body leading-relaxed">
-                            Lotes exclusivos a precio inicial de pre-lanzamiento ($18,000 USD). La mayor plusvalía asegurada. Últimos 10 lotes.
+                            Lotes desde S/ 50,913 ($60/m²). Inicial desde S/ 8,000 y financiamiento directo a 3 años sin intereses. Descuento de S/ 5,000 al contado.
                         </p>
                     </div>
                     <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase pt-3 sm:pt-4 relative z-10">80% COMPRADO</div>
@@ -122,7 +122,7 @@ export function Masterplan() {
                         <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase block">FASE 2</span>
                         <h3 class="text-base sm:text-lg font-headline font-bold text-navy uppercase tracking-wide leading-tight">Habilitación</h3>
                         <p class="text-navy/70 text-xs font-body leading-relaxed">
-                            Apertura de vías afirmadas, instalación subterránea de servicios básicos (luz y agua) y pórtico de ingreso controlado.
+                            Apertura de vías afirmadas, habilitación de red de agua, pórtico de ingreso controlado y preparación de entorno autosostenible.
                         </p>
                     </div>
                     <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase pt-3 sm:pt-4 relative z-10">EN PROCESO</div>
@@ -139,7 +139,7 @@ export function Masterplan() {
                         <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase block">FASE 3</span>
                         <h3 class="text-base sm:text-lg font-headline font-bold text-navy uppercase tracking-wide leading-tight">Áreas Comunes</h3>
                         <p class="text-navy/70 text-xs font-body leading-relaxed">
-                            Construcción del Club House, habilitación de muelles flotantes en la Laguna Azul y decks sociales de meditación.
+                            Habilitación de mirador panorámico a la Laguna Azul, decks de contemplación, senderos inmersos y áreas comunes exclusivas.
                         </p>
                     </div>
                     <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase pt-3 sm:pt-4 relative z-10">PLANEADO</div>

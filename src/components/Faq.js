@@ -1,28 +1,28 @@
 export function Faq() {
   const faqs = [
     {
-      q: '¿Qué metrajes tienen los lotes y cuál es el precio inicial?',
-      a: 'Los lotes campestres van desde los <strong>300 m² hasta 500 m²</strong>. En nuestra <strong>Fase 1 (Preventa Fundador)</strong>, los precios de lanzamiento inician desde <strong>$18,000 USD</strong> con opciones de financiamiento directo.'
+      q: '¿Qué metrajes tienen los lotes y cuáles son las facilidades de pago?',
+      a: 'Los lotes van desde los <strong>235 m² hasta 493 m²</strong> a precio de preventa de <strong>$60 USD/m²</strong> (lotes desde <strong>S/ 50,913</strong>). Puedes ingresar con una <strong>inicial mínima desde S/ 8,000</strong> y acceder a <strong>financiamiento directo a 3 años (36 meses) LIBRE DE INTERESES</strong>. Para compras al contado, aplica un <strong>bono de descuento directo de S/ 5,000</strong>.'
     },
     {
-      q: '¿Cómo se garantiza la vista panorámica a la Laguna Azul?',
-      a: 'El terreno posee una topografía naturalmente escalonada en pendiente. Gracias al diseño urbanístico del Masterplan, <strong>el 100% de los lotes cuenta con vista abierta y garantizada</strong> a la laguna sin riesgo de que otra construcción la tape.'
+      q: '¿Cómo funciona la legalidad y qué documentos se entregan al comprador?',
+      a: '<strong>Total seguridad y transparencia jurídica.</strong> Los lotes cuentan con partidas <strong>independizadas e inscritas en SUNARP</strong>. Se entrega <strong>contrato de compraventa de bien futuro</strong> y <strong>escritura pública</strong> notarial si es al contado, con el respaldo de una empresa con más de <strong>6 años de trayectoria</strong> y 3 proyectos en la selva peruana.'
     },
     {
-      q: '¿Cuál es la ubicación exacta y cómo se llega?',
-      a: 'PAQARI se encuentra ubicado a solo <strong>3 minutos del pueblo de Sauce</strong> y a <strong>45 minutos de la ciudad de Tarapoto</strong> (Aeropuerto Cadete FAP Guillermo del Castillo Paredes), combinando total privacidad con rápida accesibilidad.'
+      q: '¿Cómo funcionan los servicios en una casa de campo ecológica (luz y desagüe)?',
+      a: 'Al ser un <strong>proyecto ecoresidencial autosostenible</strong> de descanso y desconexión, no se emplean tendidos urbanos ruidosos. PAQARI cuenta con <strong>servicio de agua, vías internas afirmadas, pórtico de acceso y áreas comunes</strong>, integrándose con sistemas limpios de <strong>paneles solares</strong> y <strong>biodigestores ecológicos</strong> para preservar el entorno.'
     },
     {
-      q: '¿Los lotes cuentan con títulos de propiedad independizados?',
-      a: '<strong>Sí, total seguridad jurídica.</strong> Cada lote se entrega independizado con su partida electrónica en <strong>Sunarp</strong>, listo para la firma de escritura pública en notaría.'
+      q: '¿Puedo visitar el terreno si vivo en Lima u otra ciudad antes de comprar?',
+      a: '<strong>Totalmente.</strong> La mayoría de nuestros compradores viven en Lima, Trujillo, Arequipa o Chiclayo. Ofrecemos <strong>acompañamiento integral y facilidades</strong> para programar tu visita guiada al terreno en Sauce para que conozcas la ubicación y el mirador en persona.'
     },
     {
-      q: '¿Qué amenidades y servicios incluye el condominio?',
-      a: 'Contará con pórtico de ingreso controlado 24/7, vías afirmadas, redes de agua y luz, <strong>Club House privado con piscina, mirador social 360°, muelle náutico</strong> para kayak/paddle y senderos ecológicos inmersos en la selva.'
+      q: '¿Cómo se garantiza el 100% de vista panorámica a la Laguna Azul?',
+      a: 'El terreno posee una topografía naturalmente escalonada en pendiente hacia el lago. Gracias al diseño topográfico del Masterplan, <strong>el 100% de los lotes cuenta con vista abierta, frontal e ininterrumpida</strong> a la Laguna Azul sin riesgo de que otra construcción la tape.'
     },
     {
-      q: '¿Es viable construir cabañas para alquiler vacacional (Airbnb)?',
-      a: '<strong>Totalmente rentable.</strong> Sauce es el principal polo turístico de San Martín con alta demanda de hospedaje durante todo el año. Tu propiedad en PAQARI está proyectada para generar ingresos pasivos recurrentes en dólares.'
+      q: '¿Es viable construir cabañas para alquiler turístico y Airbnb?',
+      a: '<strong>Altamente rentable.</strong> Sauce es el principal polo turístico de San Martín (Tarapoto), con constante demanda hotelera durante todo el año. Tu propiedad en PAQARI está proyectada para generar plusvalía continua e ingresos pasivos en alquiler vacacional.'
     }
   ];
 

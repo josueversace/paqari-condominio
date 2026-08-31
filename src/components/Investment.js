@@ -39,6 +39,22 @@ export function Investment() {
                         </p>
                     </div>
 
+                    <!-- Commercial conditions banner -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 p-4 bg-white/5 border border-white/10 text-center sm:text-left">
+                        <div class="space-y-0.5">
+                            <span class="text-[9px] font-headline font-bold text-sun uppercase tracking-wider block">Inicial Mínima</span>
+                            <span class="text-sm font-headline font-extrabold text-white">Desde S/ 8,000</span>
+                        </div>
+                        <div class="space-y-0.5 border-t sm:border-t-0 sm:border-l border-white/10 pt-2 sm:pt-0 sm:pl-3">
+                            <span class="text-[9px] font-headline font-bold text-sun uppercase tracking-wider block">Financiamiento</span>
+                            <span class="text-sm font-headline font-extrabold text-white">3 Años Sin Intereses</span>
+                        </div>
+                        <div class="space-y-0.5 border-t sm:border-t-0 sm:border-l border-white/10 pt-2 sm:pt-0 sm:pl-3">
+                            <span class="text-[9px] font-headline font-bold text-sun uppercase tracking-wider block">Pago al Contado</span>
+                            <span class="text-sm font-headline font-extrabold text-white">Bono S/ 5,000 Dcto.</span>
+                        </div>
+                    </div>
+
                     <!-- Contact/CTA Button -->
                     <div class="pt-2">
                         <a href="https://wa.me/51962387203?text=Vengo%20desde%20la%20web%2C%20me%20interesa%20invertir%20en%20PAQARI" target="_blank"
@@ -59,7 +75,7 @@ export function Investment() {
                             </h4>
                         </div>
                         <p class="text-white/70 text-xs sm:text-sm font-body">
-                            Estimación de incremento del valor del metro cuadrado (USD):
+                            Estimación de incremento del valor del metro cuadrado en USD ($60/m² en Preventa):
                         </p>
                     </div>
 
@@ -83,13 +99,13 @@ export function Investment() {
                             
                             <!-- Price -->
                             <div class="my-1 sm:my-1.5 flex items-baseline justify-center gap-0.5">
-                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$80</span>
+                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$60</span>
                                 <span class="text-[10px] sm:text-xs text-white/70 font-semibold font-body">/m²</span>
                             </div>
                             
                             <!-- Description -->
                             <p class="text-[10px] sm:text-xs md:text-sm text-white/95 font-body font-medium leading-snug">
-                                Lanzamiento<br/>Exclusivo
+                                Preventa<br/>Lanzamiento
                             </p>
                         </div>
 
@@ -110,13 +126,13 @@ export function Investment() {
                             
                             <!-- Price -->
                             <div class="my-1 sm:my-1.5 flex items-baseline justify-center gap-0.5">
-                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$120</span>
+                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$90</span>
                                 <span class="text-[10px] sm:text-xs text-white/70 font-semibold font-body">/m²</span>
                             </div>
                             
                             <!-- Description -->
                             <p class="text-[10px] sm:text-xs md:text-sm text-white/95 font-body font-medium leading-snug">
-                                Apertura de<br/>Amenidades
+                                Avance Vías &<br/>Servicios
                             </p>
                         </div>
 
@@ -132,20 +148,23 @@ export function Investment() {
                             <!-- Label + Badge -->
                             <div class="flex items-center justify-center gap-1 sm:gap-1.5 text-[9px] sm:text-[11px] font-headline font-black tracking-wider sm:tracking-widest text-sun uppercase">
                                 <span>03. ENTREGA</span>
-                                <span class="bg-sun text-navy font-black text-[8px] sm:text-[9.5px] px-1 sm:px-1.5 py-0.2 tracking-normal">+100%</span>
+                                <span class="bg-sun text-navy font-black text-[8px] sm:text-[9.5px] px-1 sm:px-1.5 py-0.2 tracking-normal">+115%</span>
                             </div>
                             
                             <!-- Price -->
                             <div class="my-1 sm:my-1.5 flex items-baseline justify-center gap-0.5">
-                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$160+</span>
+                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$130+</span>
                                 <span class="text-[10px] sm:text-xs text-white/70 font-semibold font-body">/m²</span>
                             </div>
                             
                             <!-- Description -->
                             <p class="text-[10px] sm:text-xs md:text-sm text-white/95 font-body font-medium leading-snug">
-                                Inauguración<br/>Parque & Marina
+                                Consolidación &<br/>Renta Turística
                             </p>
                         </div>
+
+                    </div>
+                </div>
 
                     </div>
                 </div>

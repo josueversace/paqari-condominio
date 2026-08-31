@@ -10,7 +10,7 @@ export function Testimonials() {
                         
                         <!-- Slide 1 -->
                         <div class="w-[85%] md:w-full flex-shrink-0 snap-center bg-white p-6 md:p-10 rounded-none border border-navy/10 shadow-md border-l-8 border-sun">
-                            <p class="text-[15px] italic font-body text-on-surface mb-6 leading-relaxed pointer-events-none">"Trabajando en minería busco desconexión absoluta. PAQARI nos ofreció una excelente preventa desde $60/m² en un lugar espectacular. Ya planeamos nuestra cabaña con vistas directas a la laguna."</p>
+                            <p class="text-[15px] italic font-body text-on-surface mb-6 leading-relaxed pointer-events-none">"Buscaba desconexión y paz sin ruidos de ciudad. PAQARI me ofreció una excelente preventa a $60/m² con facilidades a 3 años sin intereses. Ya diseñamos nuestro refugio con vista panorámica directa a la laguna."</p>
                             <div class="flex items-center gap-4">
                                 <img src="/ingeniera.png" alt="Karin U." class="w-12 h-12 object-cover rounded-none border-2 border-sun shadow-sm pointer-events-none" />
                                 <div>
@@ -23,7 +23,7 @@ export function Testimonials() {
 
                         <!-- Slide 2 -->
                         <div class="w-[85%] md:w-full flex-shrink-0 snap-center bg-white p-6 md:p-10 rounded-none border border-navy/10 shadow-md border-l-8 border-sun">
-                            <p class="text-[15px] italic font-body text-on-surface mb-6 leading-relaxed pointer-events-none">"Me generaba dudas la informalidad de los terrenos en la selva, pero PAQARI me dio total tranquilidad con garantías de saneamiento físico-legal. Es el refugio idóneo para conectar con la naturaleza."</p>
+                            <p class="text-[15px] italic font-body text-on-surface mb-6 leading-relaxed pointer-events-none">"Invertir desde Lima me generaba dudas por la distancia, pero PAQARI me dio total tranquilidad con partidas independizadas en SUNARP, contrato notarial y avances reales. Paz absoluta garantizada."</p>
                             <div class="flex items-center gap-4">
                                 <img src="/extranjera.png" alt="Ivanna L." class="w-12 h-12 object-cover rounded-none border-2 border-sun shadow-sm pointer-events-none" />
                                 <div>
@@ -35,7 +35,7 @@ export function Testimonials() {
 
                         <!-- Slide 3 -->
                         <div class="w-[85%] md:w-full flex-shrink-0 snap-center bg-white p-6 md:p-10 rounded-none border border-navy/10 shadow-md border-l-8 border-sun">
-                            <p class="text-[15px] italic font-body text-on-surface mb-6 leading-relaxed pointer-events-none">"Comprar 300 m² por $18,000 USD frente a la Laguna Azul es una jugada muy inteligente. Construiré bungalows para Airbnb; con la cantidad de turistas anuales, la inversión se rentará sola."</p>
+                            <p class="text-[15px] italic font-body text-on-surface mb-6 leading-relaxed pointer-events-none">"Comprar a precio de preventa desde S/ 50,913 ($60/m²) frente a la Laguna Azul es una jugada maestra. Construiremos cabañas para Airbnb; con la afluencia de turistas en Sauce y Tarapoto, la renta turística es altamente rentable."</p>
                             <div class="flex items-center gap-4">
                                 <img src="/empresario.png" alt="Luis F." class="w-12 h-12 object-cover rounded-none border-2 border-sun shadow-sm pointer-events-none" />
                                 <div>

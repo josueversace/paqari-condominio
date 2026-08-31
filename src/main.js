@@ -90,6 +90,10 @@ window.switchMasterplanTab = (tab) => {
         btnMap.className = 'px-5 py-2.5 text-xs font-headline font-extrabold tracking-wider uppercase transition-all bg-navy text-white shadow-md flex items-center gap-2';
         btn360.className = 'px-5 py-2.5 text-xs font-headline font-extrabold tracking-wider uppercase transition-all bg-transparent text-navy/70 hover:text-navy flex items-center gap-2';
     }
+
+    if (typeof ScrollTrigger !== 'undefined') {
+        setTimeout(() => ScrollTrigger.refresh(), 60);
+    }
 };
 
 // Testimonials Slider Logic
@@ -390,6 +394,9 @@ const initGsapAnimations = () => {
             clearTimeout(safetyDismiss);
             const preloader = document.getElementById('preloader');
             if (preloader) preloader.remove();
+            if (typeof ScrollTrigger !== 'undefined') {
+                ScrollTrigger.refresh();
+            }
         }
     });
 
@@ -500,56 +507,76 @@ const initGsapAnimations = () => {
     });
 
     // 4. Amenities Grid (ScrollTrigger)
-    gsap.from('#amenities .group', {
-        opacity: 0,
-        y: 45,
-        stagger: 0.15,
-        duration: 1,
-        ease: 'power3.out',
-        scrollTrigger: {
-            trigger: '#amenities',
-            start: 'top 75%'
+    gsap.fromTo('#amenities .group', 
+        { opacity: 0, y: 30 },
+        {
+            opacity: 1,
+            y: 0,
+            stagger: 0.1,
+            duration: 0.8,
+            ease: 'power3.out',
+            clearProps: 'all',
+            scrollTrigger: {
+                trigger: '#amenities',
+                start: 'top 90%',
+                toggleActions: 'play none none none'
+            }
         }
-    });
+    );
 
     // 5. Location Highlights Grid (ScrollTrigger)
-    gsap.from('.items-location-highlight', {
-        opacity: 0,
-        y: 35,
-        stagger: 0.1,
-        duration: 1,
-        ease: 'power3.out',
-        scrollTrigger: {
-            trigger: '#location',
-            start: 'top 75%'
+    gsap.fromTo('.items-location-highlight', 
+        { opacity: 0, y: 25 },
+        {
+            opacity: 1,
+            y: 0,
+            stagger: 0.08,
+            duration: 0.8,
+            ease: 'power3.out',
+            clearProps: 'all',
+            scrollTrigger: {
+                trigger: '#location',
+                start: 'top 90%',
+                toggleActions: 'play none none none'
+            }
         }
-    });
+    );
 
     // 6. Masterplan Chronology / Phases (ScrollTrigger)
-    gsap.from('#masterplan .grid > div', {
-        opacity: 0,
-        y: 40,
-        stagger: 0.12,
-        duration: 1,
-        ease: 'power3.out',
-        scrollTrigger: {
-            trigger: '#masterplan .grid',
-            start: 'top 80%'
+    gsap.fromTo('#masterplan-phases-grid > div', 
+        { opacity: 0, y: 30 },
+        {
+            opacity: 1,
+            y: 0,
+            stagger: 0.1,
+            duration: 0.8,
+            ease: 'power3.out',
+            clearProps: 'all',
+            scrollTrigger: {
+                trigger: '#masterplan-phases-grid',
+                start: 'top 95%',
+                toggleActions: 'play none none none'
+            }
         }
-    });
+    );
 
     // 7. Investment Details and Animated Chart (ScrollTrigger)
-    gsap.from('#investment .lg\\:col-span-7 > *', {
-        opacity: 0,
-        y: 30,
-        stagger: 0.15,
-        duration: 1,
-        ease: 'power3.out',
-        scrollTrigger: {
-            trigger: '#investment',
-            start: 'top 75%'
+    gsap.fromTo('#investment .lg\\:col-span-6 > *', 
+        { opacity: 0, y: 25 },
+        {
+            opacity: 1,
+            y: 0,
+            stagger: 0.1,
+            duration: 0.8,
+            ease: 'power3.out',
+            clearProps: 'all',
+            scrollTrigger: {
+                trigger: '#investment',
+                start: 'top 90%',
+                toggleActions: 'play none none none'
+            }
         }
-    });
+    );
 
     const bars = document.querySelectorAll('.investment-bar');
     const barHeights = ['35%', '65%', '100%'];

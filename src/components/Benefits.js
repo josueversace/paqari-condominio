@@ -21,14 +21,14 @@ export function Benefits() {
       desc: 'Zonas de hamacas, meditación y senderos inmersos en la selva.'
     },
     {
-      icon: 'electric_bolt',
-      title: 'Servicios Completos',
-      desc: 'Vías internas afirmadas, redes de agua, luz y alcantarillado.'
+      icon: 'eco',
+      title: 'Autosostenible & Servicios',
+      desc: 'Servicio de agua, vías afirmadas, áreas comunes y diseño para energía solar y biodigestor.'
     },
     {
       icon: 'shield',
-      title: 'Seguridad 24/7',
-      desc: 'Pórtico de entrada controlado y cercos vivos para máxima privacidad.'
+      title: 'Privacidad & Seguridad',
+      desc: 'Pórtico de entrada controlado y cercos vivos para disfrutar de tu paz sin interferencias.'
     }
   ];
 
@@ -68,7 +68,7 @@ export function Benefits() {
                             <span class="text-sun font-serif italic lowercase tracking-tight">— perfectamente</span>
                         </h2>
                         <p class="text-white/80 font-body text-sm max-w-xl leading-relaxed">
-                            PAQARI se sitúa en un mirador natural único frente a la Laguna Azul de Sauce. El equilibrio exacto entre el retiro absoluto en la naturaleza y la accesibilidad regional.
+                            ECORESIDENCIAL PAQARI se sitúa en un mirador natural único frente a la Laguna Azul de Sauce (Tarapoto). El equilibrio exacto entre el descanso absoluto en la naturaleza y la accesibilidad regional con alta rentabilidad turística.
                         </p>
                     </div>
                     

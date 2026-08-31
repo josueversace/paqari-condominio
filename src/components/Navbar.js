@@ -4,10 +4,10 @@ export function Navbar() {
         <!-- Top Marquee Banner -->
         <div class="w-full bg-sun text-navy text-[10px] font-headline font-extrabold py-1.5 overflow-hidden border-b border-white/10 uppercase tracking-[0.15em] shadow-sm">
             <div class="animate-marquee whitespace-nowrap flex gap-12">
-                <span>PAQARI Condominio Campestre — Diferente, Por Naturaleza — Lotes desde 300 m² a 3 min de Sauce — Vista 100% Garantizada a la Laguna Azul — Oferta Fundador</span>
-                <span>PAQARI Condominio Campestre — Diferente, Por Naturaleza — Lotes desde 300 m² a 3 min de Sauce — Vista 100% Garantizada a la Laguna Azul — Oferta Fundador</span>
-                <span>PAQARI Condominio Campestre — Diferente, Por Naturaleza — Lotes desde 300 m² a 3 min de Sauce — Vista 100% Garantizada a la Laguna Azul — Oferta Fundador</span>
-                <span>PAQARI Condominio Campestre — Diferente, Por Naturaleza — Lotes desde 300 m² a 3 min de Sauce — Vista 100% Garantizada a la Laguna Azul — Oferta Fundador</span>
+                <span>ECORESIDENCIAL PAQARI — Diferente, Por Naturaleza — Lotes desde 235 m² a 3 min de Sauce (Tarapoto) — Inicial desde S/ 8,000 — 3 Años sin Intereses — 100% Vista Garantizada</span>
+                <span>ECORESIDENCIAL PAQARI — Diferente, Por Naturaleza — Lotes desde 235 m² a 3 min de Sauce (Tarapoto) — Inicial desde S/ 8,000 — 3 Años sin Intereses — 100% Vista Garantizada</span>
+                <span>ECORESIDENCIAL PAQARI — Diferente, Por Naturaleza — Lotes desde 235 m² a 3 min de Sauce (Tarapoto) — Inicial desde S/ 8,000 — 3 Años sin Intereses — 100% Vista Garantizada</span>
+                <span>ECORESIDENCIAL PAQARI — Diferente, Por Naturaleza — Lotes desde 235 m² a 3 min de Sauce (Tarapoto) — Inicial desde S/ 8,000 — 3 Años sin Intereses — 100% Vista Garantizada</span>
             </div>
         </div>
         
