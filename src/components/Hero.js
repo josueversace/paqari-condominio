@@ -39,8 +39,8 @@ export function Hero() {
                     </a>
                 </div>
                 
-                <!-- Mobile Centered Large Play Button (Centered in mobile view) -->
-                <div class="flex justify-center pt-4 md:hidden">
+                <!-- Mobile Centered Large Play Button (Hidden for now as requested until video is ready) -->
+                <div class="hidden">
                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
                        onclick="if(typeof window.gtag !== 'undefined') window.gtag('event', 'generate_lead', { method: 'Clic_Video_Hero' }); if(typeof window.fbq !== 'undefined') window.fbq('track', 'Lead', { content_name: 'Clic_Video_Hero' });"
                        class="w-16 h-16 flex items-center justify-center rounded-full bg-white text-navy shadow-2xl hover:scale-105 transition-transform duration-300 group">
@@ -50,41 +50,41 @@ export function Hero() {
             </div>
         </div>
 
-        <!-- Bottom Features Ribbon (Matching requested luxury 4-pillar bar from Imagen 1) -->
-        <div class="hero-bottom-bar absolute bottom-4 md:bottom-8 left-0 right-0 z-10 px-4 container mx-auto max-w-5xl">
-            <div class="w-full bg-[#0b1315]/85 backdrop-blur-md border-y border-sun/50 shadow-[0_8px_32px_rgba(0,0,0,0.5)]">
-                <div class="grid grid-cols-2 md:grid-cols-4 w-full">
+        <!-- Bottom Features Ribbon (Open full-width horizontal ribbon matching Adjunto 3: 4 columns, 1 row) -->
+        <div class="hero-bottom-bar absolute bottom-0 md:bottom-4 left-0 right-0 z-10 w-full">
+            <div class="w-full bg-[#070c0e]/85 backdrop-blur-md border-y border-sun/40 shadow-[0_4px_30px_rgba(0,0,0,0.6)]">
+                <div class="grid grid-cols-4 w-full max-w-6xl mx-auto">
                     <!-- Item 1: Lotes Exclusivos -->
-                    <div class="flex items-center justify-center gap-2.5 sm:gap-3.5 py-3.5 sm:py-4 px-3 sm:px-4 border-r border-b md:border-b-0 border-sun/30 group hover:bg-white/[0.03] transition-colors">
-                        <span class="material-symbols-outlined text-sun text-2xl sm:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">park</span>
-                        <div class="text-left font-headline font-extrabold text-[10px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
+                    <div class="flex items-center justify-center gap-1.5 sm:gap-3.5 py-2.5 sm:py-3.5 px-1 sm:px-4 border-r border-sun/30 group hover:bg-white/[0.03] transition-colors">
+                        <span class="material-symbols-outlined text-sun text-lg sm:text-2xl md:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">park</span>
+                        <div class="text-left font-headline font-extrabold text-[8px] xs:text-[9px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
                             <span>LOTES</span><br/>
                             <span class="text-white/90">EXCLUSIVOS</span>
                         </div>
                     </div>
                     
                     <!-- Item 2: Entorno Ecológico -->
-                    <div class="flex items-center justify-center gap-2.5 sm:gap-3.5 py-3.5 sm:py-4 px-3 sm:px-4 border-b md:border-b-0 md:border-r border-sun/30 group hover:bg-white/[0.03] transition-colors">
-                        <span class="material-symbols-outlined text-sun text-2xl sm:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">eco</span>
-                        <div class="text-left font-headline font-extrabold text-[10px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
+                    <div class="flex items-center justify-center gap-1.5 sm:gap-3.5 py-2.5 sm:py-3.5 px-1 sm:px-4 border-r border-sun/30 group hover:bg-white/[0.03] transition-colors">
+                        <span class="material-symbols-outlined text-sun text-lg sm:text-2xl md:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">eco</span>
+                        <div class="text-left font-headline font-extrabold text-[8px] xs:text-[9px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
                             <span>ENTORNO</span><br/>
                             <span class="text-white/90">ECOLÓGICO</span>
                         </div>
                     </div>
                     
                     <!-- Item 3: Alta Valorización -->
-                    <div class="flex items-center justify-center gap-2.5 sm:gap-3.5 py-3.5 sm:py-4 px-3 sm:px-4 border-r border-sun/30 group hover:bg-white/[0.03] transition-colors">
-                        <span class="material-symbols-outlined text-sun text-2xl sm:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">trending_up</span>
-                        <div class="text-left font-headline font-extrabold text-[10px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
+                    <div class="flex items-center justify-center gap-1.5 sm:gap-3.5 py-2.5 sm:py-3.5 px-1 sm:px-4 border-r border-sun/30 group hover:bg-white/[0.03] transition-colors">
+                        <span class="material-symbols-outlined text-sun text-lg sm:text-2xl md:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">trending_up</span>
+                        <div class="text-left font-headline font-extrabold text-[8px] xs:text-[9px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
                             <span>ALTA</span><br/>
                             <span class="text-white/90">VALORIZACIÓN</span>
                         </div>
                     </div>
                     
                     <!-- Item 4: Comunidad Sostenible -->
-                    <div class="flex items-center justify-center gap-2.5 sm:gap-3.5 py-3.5 sm:py-4 px-3 sm:px-4 group hover:bg-white/[0.03] transition-colors">
-                        <span class="material-symbols-outlined text-sun text-2xl sm:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">groups</span>
-                        <div class="text-left font-headline font-extrabold text-[10px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
+                    <div class="flex items-center justify-center gap-1.5 sm:gap-3.5 py-2.5 sm:py-3.5 px-1 sm:px-4 group hover:bg-white/[0.03] transition-colors">
+                        <span class="material-symbols-outlined text-sun text-lg sm:text-2xl md:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">groups</span>
+                        <div class="text-left font-headline font-extrabold text-[8px] xs:text-[9px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
                             <span>COMUNIDAD</span><br/>
                             <span class="text-white/90">SOSTENIBLE</span>
                         </div>
