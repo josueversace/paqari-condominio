@@ -1,5 +1,5 @@
 export function Investment() {
-  return `
+    return `
     <section class="py-24 bg-navy text-white relative overflow-hidden border-t border-white/5" id="investment">
         <!-- Background light overlay -->
         <div class="absolute top-0 right-0 w-96 h-96 bg-sun/5 rounded-full blur-[100px] pointer-events-none"></div>
@@ -12,8 +12,8 @@ export function Investment() {
                     <div class="space-y-3">
                         <span class="text-xs font-headline font-extrabold text-sun tracking-[0.2em] uppercase">Plusvalía & Retorno</span>
                         <h2 class="text-[clamp(2.25rem,6vw,3.5rem)] font-headline font-extrabold leading-[1.05] uppercase tracking-tighter">
-                            Invierte en el<br/>
-                            <span class="text-sun font-serif italic lowercase tracking-tight">futuro de Sauce.</span>
+                            ¿Por qué invertir en Sauce<br/>
+                            <span class="text-sun font-serif italic normal-case tracking-tight"> - Laguna Azul HOY?</span>
                         </h2>
                     </div>
 
@@ -21,10 +21,13 @@ export function Investment() {
                     <div class="space-y-2 sm:space-y-2.5">
                         <h3 class="text-base sm:text-lg md:text-xl font-headline font-bold text-white uppercase tracking-wide flex items-center gap-2">
                             <span class="material-symbols-outlined text-sun text-lg sm:text-xl">connecting_airports</span>
-                            Corto Plazo: Megainfraestructura & Conectividad
+                            Mediano Plazo: Megainfraestructura & Conectividad
                         </h3>
                         <p class="text-white/70 font-body text-xs sm:text-sm leading-relaxed">
-                            <strong>Conectividad Directa y Teleférico.</strong> La pavimentación de la vía de acceso, el puente vehicular sobre el río Huallaga y el proyectado <strong>teleférico turístico de Sauce</strong> están transformando la accesibilidad de la zona. Adquirir tu lote hoy a precio de preventa ($60/m²) asegura una valorización acelerada mientras se ejecutan estas grandes obras.
+                            <strong>Conectividad Directa y Teleférico.</strong> La pavimentación de la vía de acceso, el puente vehicular sobre el río Huallaga y el proyectado <strong>teleférico turístico de Sauce</strong> están transformando la accesibilidad de la zona. Adquirir tu lote hoy a precio de preventa ($60/m²) asegura una valorización acelerada mientras se ejecutan estas grandes obras. 
+                        </p>
+                        <p class="text-white/70 font-body text-xs sm:text-sm leading-relaxed">
+                            Objetivo turístico: Sauce se prepara para recibir más de 650,000 turistas al año.
                         </p>
                     </div>
 
@@ -35,7 +38,7 @@ export function Investment() {
                             Largo Plazo: Alta Rentabilidad Vacacional
                         </h3>
                         <p class="text-white/70 font-body text-xs sm:text-sm leading-relaxed">
-                            <strong>Ingresos Pasivos en Dólares.</strong> Sauce se consolida como el destino ecoturístico por excelencia de la selva peruana. Diseñar tu cabaña o bungalow en PAQARI para plataformas como Airbnb te permitirá captar el flujo continuo de turistas atraídos por la Laguna Azul y los nuevos atractivos, garantizando rentas periódicas y plusvalía de por vida.
+                            <strong>Ingresos Pasivos.</strong> Sauce se consolida como el destino ecoturístico por excelencia de la selva peruana. Diseñar tu cabaña o bungalow en PAQARI para plataformas como Airbnb te permitirá captar el flujo continuo de turistas atraídos por la Laguna Azul y los nuevos atractivos, garantizando rentas periódicas y plusvalía de por vida.
                         </p>
                     </div>
 
@@ -51,7 +54,7 @@ export function Investment() {
                         </div>
                         <div class="space-y-0.5 border-t sm:border-t-0 sm:border-l border-white/10 pt-2 sm:pt-0 sm:pl-3">
                             <span class="text-[9px] font-headline font-bold text-sun uppercase tracking-wider block">Pago al Contado</span>
-                            <span class="text-sm font-headline font-extrabold text-white">Bono S/ 5,000 Dcto.</span>
+                            <span class="text-sm font-headline font-extrabold text-white">Bono exclusivos</span>
                         </div>
                     </div>
 
@@ -126,7 +129,7 @@ export function Investment() {
                             
                             <!-- Price -->
                             <div class="my-1 sm:my-1.5 flex items-baseline justify-center gap-0.5">
-                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$90</span>
+                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$80</span>
                                 <span class="text-[10px] sm:text-xs text-white/70 font-semibold font-body">/m²</span>
                             </div>
                             
@@ -153,7 +156,7 @@ export function Investment() {
                             
                             <!-- Price -->
                             <div class="my-1 sm:my-1.5 flex items-baseline justify-center gap-0.5">
-                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$130+</span>
+                                <span class="text-2xl sm:text-4xl md:text-5xl font-headline font-extrabold text-sun leading-none tracking-tight">$120+</span>
                                 <span class="text-[10px] sm:text-xs text-white/70 font-semibold font-body">/m²</span>
                             </div>
                             

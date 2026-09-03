@@ -1,5 +1,5 @@
 export function Masterplan() {
-  return `
+    return `
     <section class="py-24 bg-[#FAF9F6] text-navy overflow-hidden border-t border-navy/5" id="masterplan">
         <div class="container mx-auto px-6 space-y-12 flex flex-col items-center">
             
@@ -69,24 +69,12 @@ export function Masterplan() {
                         <span class="material-symbols-outlined text-[16px] text-sun">zoom_in</span> Toca para ampliar Plano 3D
                     </div>
 
-                    <img src="/mapa3d.png" alt="Plano Paqari 3D"
+                    <img src="/mapa3d.webp" alt="Plano Paqari 3D"
                         class="w-full max-w-4xl h-auto object-contain transition-transform duration-700 md:group-hover:scale-[1.03]" />
                     
                     <div class="absolute bottom-6 right-6 flex items-center gap-4 bg-navy/90 backdrop-blur-md p-3 border border-white/25 z-20 hidden md:flex">
                         <span class="material-symbols-outlined text-sun">explore</span>
                         <div class="text-[10px] font-headline font-bold uppercase tracking-wider text-white">Orientación: Norte-Oeste</div>
-                    </div>
-                </div>
-
-                <!-- Leyenda del mapa -->
-                <div class="flex flex-wrap justify-center gap-6 bg-navy/5 px-6 py-3 border border-navy/10">
-                    <div class="flex items-center gap-2">
-                        <span class="w-3 h-3 bg-red-600 rounded-none shadow-[0_0_8px_rgba(220,38,38,0.8)]"></span>
-                        <span class="text-[10px] font-headline font-bold uppercase tracking-widest text-navy/80">Vendidos</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span class="w-3 h-3 bg-sun rounded-none shadow-[0_0_8px_rgba(189,162,101,0.8)]"></span>
-                        <span class="text-[10px] font-headline font-bold uppercase tracking-widest text-navy/80">Disponibles</span>
                     </div>
                 </div>
             </div>
@@ -105,7 +93,7 @@ export function Masterplan() {
                         <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase block">FASE 1</span>
                         <h3 class="text-base sm:text-lg font-headline font-bold text-navy uppercase tracking-wide leading-tight">Preventa Lanzamiento</h3>
                         <p class="text-navy/70 text-xs font-body leading-relaxed">
-                            Lotes desde S/ 50,913 ($60/m²). Inicial desde S/ 8,000 y financiamiento directo a 3 años sin intereses. Descuento de S/ 5,000 al contado.
+                            Lotes desde S/ 50,913 ($60/m²). Inicial desde S/ 8,000 y financiamiento directo a 3 años sin intereses. Ofertas exclusivas al contado.
                         </p>
                     </div>
                     <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase pt-3 sm:pt-4 relative z-10">80% COMPRADO</div>
@@ -122,44 +110,32 @@ export function Masterplan() {
                         <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase block">FASE 2</span>
                         <h3 class="text-base sm:text-lg font-headline font-bold text-navy uppercase tracking-wide leading-tight">Habilitación</h3>
                         <p class="text-navy/70 text-xs font-body leading-relaxed">
-                            Apertura de vías afirmadas, habilitación de red de agua, pórtico de ingreso controlado y preparación de entorno autosostenible.
+                            Apertura de vías afirmadas, instalación de red de agua y preparación de entorno autosostenible.
                         </p>
                     </div>
                     <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase pt-3 sm:pt-4 relative z-10">EN PROCESO</div>
                 </div>
                 
-                <!-- Card 3: Fase 3 -->
-                <div class="relative overflow-hidden bg-white border border-navy/10 p-5 sm:p-6 md:p-8 flex flex-col justify-between shadow-sm text-navy group hover:border-sun/50 transition-all">
-                    <!-- Big Phase Number Watermark behind text on the right -->
-                    <div class="absolute -right-1 -bottom-3 sm:-bottom-4 text-7xl sm:text-8xl font-headline font-black text-sun/15 select-none pointer-events-none z-0 tracking-tighter leading-none">
-                        03
-                    </div>
-                    
-                    <div class="space-y-1.5 sm:space-y-3 relative z-10 pr-6 sm:pr-8">
-                        <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase block">FASE 3</span>
-                        <h3 class="text-base sm:text-lg font-headline font-bold text-navy uppercase tracking-wide leading-tight">Áreas Comunes</h3>
-                        <p class="text-navy/70 text-xs font-body leading-relaxed">
-                            Habilitación de mirador panorámico a la Laguna Azul, decks de contemplación, senderos inmersos y áreas comunes exclusivas.
-                        </p>
-                    </div>
-                    <div class="text-[9px] font-headline font-bold text-navy/40 tracking-wider uppercase pt-3 sm:pt-4 relative z-10">PLANEADO</div>
-                </div>
-                
-                <!-- Card 4: Form Brochure Signup (Dark Navy contrast card for conversion power!) -->
-                <div class="relative overflow-hidden bg-navy p-5 sm:p-6 md:p-8 flex flex-col justify-between border border-[#1e293b] text-white shadow-xl">
+                <!-- Card 3: Form Signup & Visit (Expanded across 2 columns for maximum conversion) -->
+                <div class="relative overflow-hidden bg-navy p-5 sm:p-6 md:p-8 flex flex-col justify-between border border-[#1e293b] text-white shadow-xl col-span-1 md:col-span-2 lg:col-span-2">
                     <div class="space-y-1.5 sm:space-y-2 relative z-10">
-                        <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase block">Brochure PDF</span>
-                        <h3 class="text-base sm:text-lg font-headline font-extrabold uppercase tracking-wide text-white leading-tight">Sé parte de PAQARI</h3>
-                        <p class="text-white/70 text-[11px] font-body leading-normal">Recibe los planos y la lista de precios en tu WhatsApp.</p>
+                        <span class="text-[9px] font-headline font-extrabold text-sun tracking-widest uppercase block">Visita & Asesoría</span>
+                        <h3 class="text-base sm:text-xl font-headline font-extrabold uppercase tracking-wide text-white leading-tight">Sé parte de PAQARI</h3>
+                        <p class="text-white/70 text-xs font-body leading-normal">Coordina tu visita a la Laguna Azul de Sauce y recibe los planos y cotización en tu WhatsApp.</p>
                     </div>
                     
-                    <form id="form-contacto" class="space-y-2.5 mt-3 sm:mt-4 relative z-10">
-                        <input name="nombre" class="w-full bg-white/10 border border-white/15 px-3.5 py-2 sm:py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="Nombre Completo" type="text" required />
-                        <input name="correo" class="w-full bg-white/10 border border-white/15 px-3.5 py-2 sm:py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="Tu mejor correo" type="email" required />
-                        <input name="whatsapp" class="w-full bg-white/10 border border-white/15 px-3.5 py-2 sm:py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="WhatsApp" type="tel" required />
-                        <button id="btn-submit" class="w-full bg-sun text-navy py-2.5 sm:py-3 font-headline font-extrabold text-[10px] tracking-widest hover:bg-[#cda557] transition-all uppercase" type="submit">
-                            DESCARGAR BROCHURE
-                        </button>
+                    <form id="form-contacto" class="space-y-3 mt-4 relative z-10">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <input name="nombre" class="w-full bg-white/10 border border-white/15 px-3.5 py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="Nombre Completo" type="text" required />
+                            <input name="whatsapp" class="w-full bg-white/10 border border-white/15 px-3.5 py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="WhatsApp" type="tel" required />
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <input name="correo" class="w-full bg-white/10 border border-white/15 px-3.5 py-2.5 text-xs placeholder:text-white/40 focus:ring-sun text-white font-body focus:outline-none" placeholder="Tu mejor correo" type="email" required />
+                            <button id="btn-submit" class="w-full bg-sun text-navy py-2.5 sm:py-3 font-headline font-extrabold text-xs tracking-widest hover:bg-[#cda557] transition-all uppercase flex items-center justify-center gap-1.5 shadow-md" type="submit">
+                                <span>AGENDA TU VISITA</span>
+                                <span class="material-symbols-outlined text-sm">calendar_month</span>
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -177,7 +153,7 @@ export function Masterplan() {
                 
                 <!-- Zoom Container -->
                 <div class="w-full h-full overflow-auto pt-24 pb-8 px-4">
-                    <img src="/mapa3d.png" alt="Plano Ampliado" class="w-[260vw] sm:w-[150vw] md:w-[90vw] max-w-none h-auto object-contain mx-auto block transition-transform rounded-none" />
+                    <img src="/mapa3d.webp" alt="Plano Ampliado" class="w-[260vw] sm:w-[150vw] md:w-[90vw] max-w-none h-auto object-contain mx-auto block transition-transform rounded-none" />
                 </div>
             </div>
             

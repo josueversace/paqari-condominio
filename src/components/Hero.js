@@ -1,5 +1,5 @@
 export function Hero() {
-  return `
+    return `
     <section id="hero-section" class="relative min-h-[100dvh] flex items-center justify-center overflow-hidden bg-navy pt-20 pb-24 md:pb-0">
         <!-- Fullscreen Background Scenery (Vivid and naturally bright) -->
         <div class="absolute inset-0 z-0 hero-parallax-bg pointer-events-none select-none">
@@ -14,13 +14,13 @@ export function Hero() {
             <div class="absolute -inset-x-8 -inset-y-12 hero-radial-backdrop pointer-events-none -z-10 rounded-full blur-xl opacity-95"></div>
 
             <div class="space-y-6 md:space-y-8 relative z-10">
-                <h1 class="hero-title text-[clamp(2.5rem,8vw,5.5rem)] font-headline font-extrabold text-white leading-[1.0] tracking-tighter text-shadow-strong uppercase">
-                    Diferente,<br/>
-                    <span class="text-sun font-serif italic lowercase tracking-tight">por naturaleza.</span>
+                <h1 class="hero-title text-[clamp(2.5rem,7.5vw,5rem)] font-headline font-extrabold text-white leading-[1.05] tracking-tighter text-shadow-strong uppercase">
+                    Renace, Invierte<br/>
+                    <span class="text-sun font-serif italic normal-case tracking-tight">y disfruta.</span>
                 </h1>
                 
-                <p class="hero-subtitle text-base sm:text-lg text-white font-medium max-w-lg mx-auto font-body leading-relaxed text-shadow-strong">
-                    El lujo de que nadie interrumpa tu calma. Lotes campestres exclusivos desde 235 m² con vista 100% garantizada a la Laguna Azul de Sauce (Tarapoto).
+                <p class="hero-subtitle text-base sm:text-lg text-white font-medium max-w-xl mx-auto font-body leading-relaxed text-shadow-strong">
+                    Renace en naturaleza, invierte en tu futuro, disfruta la vida que mereces.
                 </p>
                 
                 <!-- Explore Link (WSL Underlined Link Style) -->
@@ -50,28 +50,56 @@ export function Hero() {
             </div>
         </div>
 
-        <!-- Bottom Footer Info Bar inside the Hero -->
-        <div class="absolute bottom-6 md:bottom-10 left-0 right-0 z-10 px-4 sm:px-6 container mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
-            <!-- Left: Sales info & Saber Más link (sleek architectural badge matching design system) -->
-            <div class="hero-bottom-left text-[11px] sm:text-sm text-white/95 font-body flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 bg-[#121820]/80 sm:bg-[#121820]/45 backdrop-blur-md px-5 py-3 sm:py-2.5 rounded-none border border-white/20 shadow-2xl text-center sm:text-left">
-                <span class="leading-snug">
-                    Lotes desde <strong class="text-white font-bold">S/ 50,913 ($60/m²)</strong> <span class="hidden sm:inline">•</span><br class="sm:hidden" />
-                    Inicial <strong class="text-white font-bold">S/ 8,000</strong> • 3 Años sin Intereses
-                </span>
-                <a href="#masterplan" class="inline-flex items-center gap-1 text-sun hover:text-white border-b border-sun/60 hover:border-white pb-0.5 transition-all group font-headline font-bold text-xs uppercase tracking-wider whitespace-nowrap pt-1 sm:pt-0">
-                    <span>Saber Más</span>
-                    <span class="material-symbols-outlined text-xs transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">arrow_outward</span>
-                </a>
+        <!-- Bottom Features Ribbon (Matching requested luxury 4-pillar bar from Imagen 1) -->
+        <div class="hero-bottom-bar absolute bottom-4 md:bottom-8 left-0 right-0 z-10 px-4 container mx-auto max-w-5xl">
+            <div class="w-full bg-[#0b1315]/85 backdrop-blur-md border-y border-sun/50 shadow-[0_8px_32px_rgba(0,0,0,0.5)]">
+                <div class="grid grid-cols-2 md:grid-cols-4 w-full">
+                    <!-- Item 1: Lotes Exclusivos -->
+                    <div class="flex items-center justify-center gap-2.5 sm:gap-3.5 py-3.5 sm:py-4 px-3 sm:px-4 border-r border-b md:border-b-0 border-sun/30 group hover:bg-white/[0.03] transition-colors">
+                        <span class="material-symbols-outlined text-sun text-2xl sm:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">park</span>
+                        <div class="text-left font-headline font-extrabold text-[10px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
+                            <span>LOTES</span><br/>
+                            <span class="text-white/90">EXCLUSIVOS</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 2: Entorno Ecológico -->
+                    <div class="flex items-center justify-center gap-2.5 sm:gap-3.5 py-3.5 sm:py-4 px-3 sm:px-4 border-b md:border-b-0 md:border-r border-sun/30 group hover:bg-white/[0.03] transition-colors">
+                        <span class="material-symbols-outlined text-sun text-2xl sm:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">eco</span>
+                        <div class="text-left font-headline font-extrabold text-[10px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
+                            <span>ENTORNO</span><br/>
+                            <span class="text-white/90">ECOLÓGICO</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 3: Alta Valorización -->
+                    <div class="flex items-center justify-center gap-2.5 sm:gap-3.5 py-3.5 sm:py-4 px-3 sm:px-4 border-r border-sun/30 group hover:bg-white/[0.03] transition-colors">
+                        <span class="material-symbols-outlined text-sun text-2xl sm:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">trending_up</span>
+                        <div class="text-left font-headline font-extrabold text-[10px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
+                            <span>ALTA</span><br/>
+                            <span class="text-white/90">VALORIZACIÓN</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 4: Comunidad Sostenible -->
+                    <div class="flex items-center justify-center gap-2.5 sm:gap-3.5 py-3.5 sm:py-4 px-3 sm:px-4 group hover:bg-white/[0.03] transition-colors">
+                        <span class="material-symbols-outlined text-sun text-2xl sm:text-3xl select-none flex-shrink-0 transition-transform group-hover:scale-110">groups</span>
+                        <div class="text-left font-headline font-extrabold text-[10px] sm:text-xs md:text-sm tracking-wider uppercase text-white leading-tight">
+                            <span>COMUNIDAD</span><br/>
+                            <span class="text-white/90">SOSTENIBLE</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <!-- Right: Small Play Button (Desktop only) -->
-            <div class="hero-bottom-right hidden md:block">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
-                   onclick="if(typeof window.gtag !== 'undefined') window.gtag('event', 'generate_lead', { method: 'Clic_Video_Hero' }); if(typeof window.fbq !== 'undefined') window.fbq('track', 'Lead', { content_name: 'Clic_Video_Hero' });"
-                   class="w-12 h-12 flex items-center justify-center rounded-full bg-white text-[#121820] shadow-2xl hover:scale-110 transition-transform duration-300 group">
-                    <span class="material-symbols-outlined text-xl fill-current text-[#121820] pl-0.5">play_arrow</span>
-                </a>
-            </div>
+        </div>
+        
+        <!-- Right: Floating Play Button (Desktop only) -->
+        <div class="hero-bottom-play absolute bottom-6 md:bottom-9 right-6 md:right-10 z-20 hidden xl:block">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+               onclick="if(typeof window.gtag !== 'undefined') window.gtag('event', 'generate_lead', { method: 'Clic_Video_Hero' }); if(typeof window.fbq !== 'undefined') window.fbq('track', 'Lead', { content_name: 'Clic_Video_Hero' });"
+               class="w-12 h-12 flex items-center justify-center rounded-full bg-white text-[#121820] shadow-2xl hover:scale-110 transition-transform duration-300 group">
+                <span class="material-symbols-outlined text-xl fill-current text-[#121820] pl-0.5">play_arrow</span>
+            </a>
         </div>
     </section>
   `;

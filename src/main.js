@@ -12,7 +12,6 @@ import { Hero } from './components/Hero.js'
 import { Quote } from './components/Quote.js'
 import { Amenities } from './components/Amenities.js'
 import { Benefits } from './components/Benefits.js'
-import { GallerySlider } from './components/GallerySlider.js'
 import { Masterplan } from './components/Masterplan.js'
 import { Investment } from './components/Investment.js'
 import { Testimonials } from './components/Testimonials.js'
@@ -28,7 +27,6 @@ document.querySelector('#app').innerHTML = `
   ${Quote()}
   ${Amenities()}
   ${Benefits()}
-  ${GallerySlider()}
   ${Masterplan()}
   ${Investment()}
   ${Testimonials()}
@@ -47,13 +45,11 @@ window.addEventListener('scroll', () => {
 
     const currentScrollY = Math.max(0, window.scrollY); // Prevent negative scroll bounce in Safari
 
-    // Dynamic background glass when scrolling down past Hero
+    // Dynamic shadow when scrolling down past Hero
     if (currentScrollY > 80) {
-        navbar.classList.add('bg-[#121820]/95', 'backdrop-blur-md', 'border-b', 'border-white/10', 'shadow-xl');
-        navbar.classList.remove('bg-transparent');
+        navbar.classList.add('shadow-2xl', 'backdrop-blur-md');
     } else {
-        navbar.classList.remove('bg-[#121820]/95', 'backdrop-blur-md', 'border-b', 'border-white/10', 'shadow-xl');
-        navbar.classList.add('bg-transparent');
+        navbar.classList.remove('shadow-2xl', 'backdrop-blur-md');
     }
 
     // Hide on scroll down, show on scroll up
@@ -173,20 +169,6 @@ const initTestimonials = () => {
     });
     if (btnNext) btnNext.addEventListener('click', () => {
         slider.scrollBy({ left: (slider.clientWidth * 0.8), behavior: 'smooth' });
-    });
-};
-
-const initGallerySliderMobile = () => {
-    const wrapper = document.getElementById('gallery-carousel-wrapper');
-    const btnPrev = document.getElementById('btn-gallery-prev');
-    const btnNext = document.getElementById('btn-gallery-next');
-    if (!wrapper || !btnPrev || !btnNext) return;
-    
-    btnPrev.addEventListener('click', () => {
-        wrapper.scrollBy({ left: -(wrapper.clientWidth * 0.4), behavior: 'smooth' });
-    });
-    btnNext.addEventListener('click', () => {
-        wrapper.scrollBy({ left: (wrapper.clientWidth * 0.4), behavior: 'smooth' });
     });
 };
 
@@ -436,7 +418,7 @@ const initGsapAnimations = () => {
         duration: 1.2,
         ease: 'power3.out'
     }, '-=0.9')
-    .from('.hero-bottom-left, .hero-bottom-right', {
+    .from('.hero-bottom-bar, .hero-bottom-play', {
         y: 20,
         opacity: 0,
         duration: 1.2,
@@ -613,44 +595,7 @@ const initGsapAnimations = () => {
         }
     );
 
-    // 9. Desktop Pinned Horizontal Gallery Scroll (Locomotive/WSL style)
-    const mm = gsap.matchMedia();
-
-    mm.add("(min-width: 1024px)", () => {
-        const section = document.getElementById('gallery-slider-section');
-        const track = document.querySelector('.gallery-track');
-        if (!section || !track) return;
-
-        // Reset native scroll styling for desktop pinning
-        const wrapper = document.getElementById('gallery-carousel-wrapper');
-        if (wrapper) {
-            wrapper.style.overflowX = 'hidden';
-            wrapper.scrollLeft = 0;
-        }
-
-        gsap.to(track, {
-            x: () => -(track.scrollWidth - window.innerWidth + 96), // account for track margins
-            ease: 'none',
-            scrollTrigger: {
-                trigger: section,
-                pin: true,
-                scrub: 1.2,
-                start: 'top top',
-                end: () => `+=${track.scrollWidth - window.innerWidth + 96}`,
-                invalidateOnRefresh: true
-            }
-        });
-    });
-
-    mm.add("(max-width: 1023px)", () => {
-        const wrapper = document.getElementById('gallery-carousel-wrapper');
-        if (wrapper) {
-            wrapper.style.overflowX = 'auto';
-        }
-        initGallerySliderMobile();
-    });
-
-    // 10. Image Scroll Parallax (WSL deep-perspective effect)
+    // 9. Image Scroll Parallax (WSL deep-perspective effect)
     const parallaxImages = document.querySelectorAll('.img-zoom-hover');
     parallaxImages.forEach(img => {
         // Find nearest overflow hidden container to avoid boundaries leaking

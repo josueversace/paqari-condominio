@@ -1,29 +1,30 @@
 export function Faq() {
   const faqs = [
     {
-      q: '¿Qué metrajes tienen los lotes y cuáles son las facilidades de pago?',
-      a: 'Los lotes van desde los <strong>235 m² hasta 493 m²</strong> a precio de preventa de <strong>$60 USD/m²</strong> (lotes desde <strong>S/ 50,913</strong>). Puedes ingresar con una <strong>inicial mínima desde S/ 8,000</strong> y acceder a <strong>financiamiento directo a 3 años (36 meses) LIBRE DE INTERESES</strong>. Para compras al contado, aplica un <strong>bono de descuento directo de S/ 5,000</strong>.'
+      q: '¿Cómo invertir si vivo en Lima u otra ciudad?',
+      a: 'La mayoría de nuestros inversionistas viven en Lima, Trujillo, Arequipa y otras ciudades como tú. Primero, recibe una asesoría por nuestro staff de asesores, despues agenda una presentación virtual para determinar si el proyecto es para ti, luego puedes visitar el terreno por tus propios medios o gratuitamente dando solo la inicial, para terminar legalizamos los documentos en la notaría de Tarapoto o Lima.'
     },
     {
       q: '¿Cómo funciona la legalidad y qué documentos se entregan al comprador?',
-      a: '<strong>Total seguridad y transparencia jurídica.</strong> Los lotes cuentan con partidas <strong>independizadas e inscritas en SUNARP</strong>. Se entrega <strong>contrato de compraventa de bien futuro</strong> y <strong>escritura pública</strong> notarial si es al contado, con el respaldo de una empresa con más de <strong>6 años de trayectoria</strong> y 3 proyectos en la selva peruana.'
-    },
-    {
-      q: '¿Cómo funcionan los servicios en una casa de campo ecológica (luz y desagüe)?',
-      a: 'Al ser un <strong>proyecto ecoresidencial autosostenible</strong> de descanso y desconexión, no se emplean tendidos urbanos ruidosos. PAQARI cuenta con <strong>servicio de agua, vías internas afirmadas, pórtico de acceso y áreas comunes</strong>, integrándose con sistemas limpios de <strong>paneles solares</strong> y <strong>biodigestores ecológicos</strong> para preservar el entorno.'
-    },
-    {
-      q: '¿Puedo visitar el terreno si vivo en Lima u otra ciudad antes de comprar?',
-      a: '<strong>Totalmente.</strong> La mayoría de nuestros compradores viven en Lima, Trujillo, Arequipa o Chiclayo. Ofrecemos <strong>acompañamiento integral y facilidades</strong> para programar tu visita guiada al terreno en Sauce para que conozcas la ubicación y el mirador en persona.'
-    },
-    {
-      q: '¿Cómo se garantiza el 100% de vista panorámica a la Laguna Azul?',
-      a: 'El terreno posee una topografía naturalmente escalonada en pendiente hacia el lago. Gracias al diseño topográfico del Masterplan, <strong>el 100% de los lotes cuenta con vista abierta, frontal e ininterrumpida</strong> a la Laguna Azul sin riesgo de que otra construcción la tape.'
+      a: '<strong>Total seguridad y transparencia jurídica.</strong> Los lotes se entregara con partidas <strong>independizadas e inscritas en SUNARP</strong>. Se entrega <strong>contrato de compraventa de bien futuro</strong> y <strong>escritura pública</strong> notarial si es al contado.'
     },
     {
       q: '¿Es viable construir cabañas para alquiler turístico y Airbnb?',
       a: '<strong>Altamente rentable.</strong> Sauce es el principal polo turístico de San Martín (Tarapoto), con constante demanda hotelera durante todo el año. Tu propiedad en PAQARI está proyectada para generar plusvalía continua e ingresos pasivos en alquiler vacacional.'
+    },
+    {
+      q: '¿Cómo funcionan los servicios en una casa de campo ecológica (luz y desagüe)?',
+      a: 'Al ser un <strong>proyecto ecoresidencial autosostenible</strong> de descanso y desconexión, no se emplean tendidos urbanos ruidosos. PAQARI contará con <strong>servicio de agua, vías internas afirmadas, pórtico de acceso y áreas comunes</strong>, integrándose con sistemas limpios de <strong>paneles solares</strong> y <strong>biodigestores ecológicos</strong> para preservar el entorno.'
+    },
+    {
+      q: '¿Cómo se garantiza el 100% de vista panorámica a la Laguna Azul?',
+      a: 'Todo el proyecto cuenta con una vista panorámica gracias a su ubicación geográfica y el diseño de los planos garantiza estas visuales desde tu casa de campo.'
+    },
+    {
+      q: '¿Qué metrajes tienen los lotes y cuáles son las facilidades de pago?',
+      a: 'Los lotes van desde los <strong>235 m² hasta 493 m²</strong> a precio de preventa de <strong>$60 USD/m²</strong> (lotes desde <strong>S/ 50,913</strong>). Puedes ingresar con una <strong>inicial mínima desde S/ 8,000</strong> y acceder a <strong>financiamiento directo a 3 años (36 meses) LIBRE DE INTERESES</strong>. Para compras al contado, tenemos ofertas exclusivas para ti</strong>.'
     }
+
   ];
 
   const accordionHtml = faqs.map(faq => `

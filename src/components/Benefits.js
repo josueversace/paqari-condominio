@@ -2,23 +2,23 @@ export function Benefits() {
   const highlights = [
     {
       icon: 'location_on',
-      title: 'A 3 Minutos de Sauce',
-      desc: 'Acceso inmediato a la oferta gastronómica y recreativa del pueblo.'
+      title: 'A 3 Minutos de la Laguna',
+      desc: 'A un paso de todo: zona comercial, centros turísticos, educativos y de salud'
     },
     {
       icon: 'visibility',
-      title: 'Vista 100% Laguna',
-      desc: 'Terrenos elevados en pendiente que garantizan la vista al lago.'
+      title: 'Vistas panorámicas a la laguna',
+      desc: 'Terrenos con topografía privilegiada que garantizan la vista a la laguna.'
     },
     {
       icon: 'flight',
-      title: '45 min de Tarapoto',
-      desc: 'Conexión rápida con el Aeropuerto y el centro comercial de la región.'
+      title: '90 min de Tarapoto',
+      desc: 'Conexión rápida con el Aeropuerto internacional y el centro comercial de la región.'
     },
     {
       icon: 'nature_people',
-      title: 'Senderos Ecológicos',
-      desc: 'Zonas de hamacas, meditación y senderos inmersos en la selva.'
+      title: 'Rentas Turísticas',
+      desc: 'Zona exclusiva con alta demanda turistica para generar ingresos constantes mediante Airbnb y plataformas turísticas.'
     },
     {
       icon: 'eco',
@@ -27,8 +27,8 @@ export function Benefits() {
     },
     {
       icon: 'shield',
-      title: 'Privacidad & Seguridad',
-      desc: 'Pórtico de entrada controlado y cercos vivos para disfrutar de tu paz sin interferencias.'
+      title: 'Cerca a infraestructuras importantes',
+      desc: 'La construcción del puente, el asfaltado, teleférico y el nuevo hospital garantizan una revalorización de tu inversión.'
     }
   ];
 
@@ -51,8 +51,8 @@ export function Benefits() {
                 
                 <!-- Left Side: Landscape Image & Caption -->
                 <div class="lg:col-span-5 space-y-6">
-                    <div class="relative overflow-hidden border border-white/10 aspect-[6/5]">
-                        <img src="/portico_principal.png" alt="PAQARI Entrada" class="w-full h-full object-cover img-zoom-hover" />
+                    <div class="aspect-[4/3] w-full overflow-hidden relative shadow-2xl">
+                        <img src="/portico_principal.webp" alt="PAQARI Entrada" class="w-full h-full object-cover img-zoom-hover" />
                         <div class="absolute inset-0 bg-gradient-to-t from-[#121820]/60 to-transparent"></div>
                     </div>
                     <p class="text-white/70 font-body text-xs sm:text-sm italic leading-relaxed">
@@ -64,8 +64,8 @@ export function Benefits() {
                 <div class="lg:col-span-7 space-y-12">
                     <div class="space-y-4">
                         <h2 class="text-[clamp(2.5rem,8vw,3.75rem)] font-headline font-extrabold leading-[1.0] uppercase tracking-tighter text-white">
-                            Ubicado<br/>
-                            <span class="text-sun font-serif italic lowercase tracking-tight">— perfectamente</span>
+                            Ubicación<br/>
+                            <span class="text-sun font-serif italic lowercase tracking-tight">— estratégica</span>
                         </h2>
                         <p class="text-white/80 font-body text-sm max-w-xl leading-relaxed">
                             ECORESIDENCIAL PAQARI se sitúa en un mirador natural único frente a la Laguna Azul de Sauce (Tarapoto). El equilibrio exacto entre el descanso absoluto en la naturaleza y la accesibilidad regional con alta rentabilidad turística.

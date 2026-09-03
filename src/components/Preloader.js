@@ -7,7 +7,7 @@ export function Preloader() {
                 <div class="absolute w-32 h-32 bg-sun/10 rounded-full blur-2xl animate-pulse pointer-events-none"></div>
                 
                 <!-- Official Golden Transparent Paqari Logo -->
-                <img src="/logo-lineas-blancas.png" alt="PAQARI Logo" class="h-20 sm:h-24 w-auto object-contain filter drop-shadow-[0_4px_16px_rgba(189,162,101,0.35)] relative z-10" />
+                <img src="/logo-lineas-blancas.webp" alt="PAQARI Logo" class="h-20 sm:h-24 w-auto object-contain filter drop-shadow-[0_4px_16px_rgba(189,162,101,0.35)] relative z-10" />
             </div>
             
             <div class="space-y-2">

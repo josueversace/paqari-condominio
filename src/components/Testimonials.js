@@ -12,7 +12,7 @@ export function Testimonials() {
                         <div class="w-[85%] md:w-full flex-shrink-0 snap-center bg-white p-6 md:p-10 rounded-none border border-navy/10 shadow-md border-l-8 border-sun">
                             <p class="text-[15px] italic font-body text-on-surface mb-6 leading-relaxed pointer-events-none">"Buscaba desconexión y paz sin ruidos de ciudad. PAQARI me ofreció una excelente preventa a $60/m² con facilidades a 3 años sin intereses. Ya diseñamos nuestro refugio con vista panorámica directa a la laguna."</p>
                             <div class="flex items-center gap-4">
-                                <img src="/ingeniera.png" alt="Karin U." class="w-12 h-12 object-cover rounded-none border-2 border-sun shadow-sm pointer-events-none" />
+                                <img src="/ingeniera.webp" alt="Karin U." class="w-12 h-12 object-cover rounded-none border-2 border-sun shadow-sm pointer-events-none" />
                                 <div>
                                     <p class="font-headline font-bold text-navy pointer-events-none">Karin U.</p>
                                     <p class="text-[11px] text-on-surface-variant font-semibold uppercase tracking-wide pointer-events-none">Ingeniera Civil</p>
@@ -25,7 +25,7 @@ export function Testimonials() {
                         <div class="w-[85%] md:w-full flex-shrink-0 snap-center bg-white p-6 md:p-10 rounded-none border border-navy/10 shadow-md border-l-8 border-sun">
                             <p class="text-[15px] italic font-body text-on-surface mb-6 leading-relaxed pointer-events-none">"Invertir desde Lima me generaba dudas por la distancia, pero PAQARI me dio total tranquilidad con partidas independizadas en SUNARP, contrato notarial y avances reales. Paz absoluta garantizada."</p>
                             <div class="flex items-center gap-4">
-                                <img src="/extranjera.png" alt="Ivanna L." class="w-12 h-12 object-cover rounded-none border-2 border-sun shadow-sm pointer-events-none" />
+                                <img src="/extranjera.webp" alt="Ivanna L." class="w-12 h-12 object-cover rounded-none border-2 border-sun shadow-sm pointer-events-none" />
                                 <div>
                                     <p class="font-headline font-bold text-navy pointer-events-none">Ivanna L.</p>
                                     <p class="text-[11px] text-on-surface-variant font-semibold uppercase tracking-wide pointer-events-none">Psicóloga</p>
@@ -37,7 +37,7 @@ export function Testimonials() {
                         <div class="w-[85%] md:w-full flex-shrink-0 snap-center bg-white p-6 md:p-10 rounded-none border border-navy/10 shadow-md border-l-8 border-sun">
                             <p class="text-[15px] italic font-body text-on-surface mb-6 leading-relaxed pointer-events-none">"Comprar a precio de preventa desde S/ 50,913 ($60/m²) frente a la Laguna Azul es una jugada maestra. Construiremos cabañas para Airbnb; con la afluencia de turistas en Sauce y Tarapoto, la renta turística es altamente rentable."</p>
                             <div class="flex items-center gap-4">
-                                <img src="/empresario.png" alt="Luis F." class="w-12 h-12 object-cover rounded-none border-2 border-sun shadow-sm pointer-events-none" />
+                                <img src="/empresario.webp" alt="Luis F." class="w-12 h-12 object-cover rounded-none border-2 border-sun shadow-sm pointer-events-none" />
                                 <div>
                                     <p class="font-headline font-bold text-navy pointer-events-none">Luis F.</p>
                                     <p class="text-[11px] text-on-surface-variant font-semibold uppercase tracking-wide pointer-events-none">Empresario / Desarrollador</p>
@@ -61,15 +61,15 @@ export function Testimonials() {
                 <img alt="Hiking path" class="absolute top-0 right-0 w-64 h-64 opacity-10 adventure-mask object-cover"
                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjmqXbBNKS3Q51jz9YwocVbtsh3lTA4EfAOvvuXP4abftCy3fHmEVzUXVpN3xoJ7pTkeOZmIKg7S7SYR9QybFWjXe8LEgKlJ9HWHiYHvSdjMk6SwzQPwKHelGgmOtz8c2Nq4wayOvM8946gkEDoouF1wC9FVS5y9e0o2Dn2lWdgd4-q82pEr8EVVh3IXzrYlEytbnZWyzYRERRiin-D9IrIE0TChJhm6dbW7bGY8tDE7p0qYUDUOV-SBgSk-qD-_kxVLI-bEohfZ8P" />
                 <div class="relative z-10 space-y-6">
-                    <h3 class="text-3xl font-headline font-extrabold">Visión Paqari</h3>
-                    <p class="text-white/70 font-body leading-relaxed">Con más de 3 proyectos exitosos en la selva, nuestro compromiso es la transparencia legal y el equilibrio ambiental. No solo vendemos tierra, creamos destinos de alta gama.</p>
+                    <h3 class="text-3xl font-headline font-extrabold">Respaldo Paqari</h3>
+                    <p class="text-white/70 font-body leading-relaxed">Con más de 3 proyectos exitosos en la selva, nuestro compromiso es la transparencia legal y el equilibrio ambiental. No solo ofrecemos tierra, creamos destinos de alta gama.</p>
                     <div class="flex gap-10 pt-6">
                         <div>
                             <p class="text-4xl font-headline font-extrabold text-sun">150+</p>
                             <p class="text-[10px] uppercase font-bold text-white/50">Lotes Entregados</p>
                         </div>
                         <div>
-                            <p class="text-4xl font-headline font-extrabold text-sun">6+</p>
+                            <p class="text-4xl font-headline font-extrabold text-sun">7+</p>
                             <p class="text-[10px] uppercase font-bold text-white/50">Años de Trayectoria</p>
                         </div>
                     </div>

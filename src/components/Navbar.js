@@ -1,8 +1,8 @@
 export function Navbar() {
   return `
-    <header id="navbar" class="fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 ease-in-out bg-transparent pointer-events-auto">
+    <header id="navbar" class="fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 ease-in-out shadow-lg pointer-events-auto bg-gradient-to-r from-[#7a5c24] via-[#bda265] via-[#dfc68b] via-[#bda265] to-[#7a5c24] border-b border-black/10">
         <!-- Top Marquee Banner -->
-        <div class="w-full bg-sun text-navy text-[10px] font-headline font-extrabold py-1.5 overflow-hidden border-b border-white/10 uppercase tracking-[0.15em] shadow-sm">
+        <div class="w-full bg-black/15 text-navy text-[10px] font-headline font-extrabold py-1.5 overflow-hidden border-b border-black/10 uppercase tracking-[0.15em]">
             <div class="animate-marquee whitespace-nowrap flex gap-12">
                 <span>ECORESIDENCIAL PAQARI — Diferente, Por Naturaleza — Lotes desde 235 m² a 3 min de Sauce (Tarapoto) — Inicial desde S/ 8,000 — 3 Años sin Intereses — 100% Vista Garantizada</span>
                 <span>ECORESIDENCIAL PAQARI — Diferente, Por Naturaleza — Lotes desde 235 m² a 3 min de Sauce (Tarapoto) — Inicial desde S/ 8,000 — 3 Años sin Intereses — 100% Vista Garantizada</span>
@@ -11,37 +11,37 @@ export function Navbar() {
             </div>
         </div>
         
-        <!-- Main Transparent Navigation Bar -->
-        <nav id="main-nav" class="w-full bg-transparent px-6 py-4 flex justify-between items-center transition-all duration-300">
+        <!-- Main Navigation Bar -->
+        <nav id="main-nav" class="w-full px-6 py-3 sm:py-3.5 flex justify-between items-center transition-all duration-300">
             <div class="flex items-center gap-4">
                 <a href="/" class="flex items-center">
-                    <img alt="PAQARI Logo" class="h-10 sm:h-12 object-contain filter drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]" src="/logo-lineas-blancas.png" />
+                    <img alt="PAQARI Logo" class="h-9 sm:h-11 object-contain filter brightness-0 opacity-90 drop-shadow-sm" src="/logo-lineas-blancas.webp" />
                 </a>
             </div>
             
             <!-- Minimalist Navigation Links -->
             <div class="hidden lg:flex gap-8 items-center">
-                <a class="text-white hover:text-sun font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow drop-shadow-[0_1px_4px_rgba(0,0,0,0.8)]" href="#project"
+                <a class="text-navy hover:text-black font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow" href="#project"
                     onclick="if(typeof window.gtag !== 'undefined') window.gtag('event', 'menu_click', { section: 'El Proyecto' })">EL PROYECTO</a>
-                <a class="text-white hover:text-sun font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow drop-shadow-[0_1px_4px_rgba(0,0,0,0.8)]" href="#amenities"
+                <a class="text-navy hover:text-black font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow" href="#amenities"
                     onclick="if(typeof window.gtag !== 'undefined') window.gtag('event', 'menu_click', { section: 'Amenities' })">AMENITIES</a>
-                <a class="text-white hover:text-sun font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow drop-shadow-[0_1px_4px_rgba(0,0,0,0.8)]" href="#location"
+                <a class="text-navy hover:text-black font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow" href="#location"
                     onclick="if(typeof window.gtag !== 'undefined') window.gtag('event', 'menu_click', { section: 'Ubicacion' })">UBICACIÓN</a>
-                <a class="text-white hover:text-sun font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow drop-shadow-[0_1px_4px_rgba(0,0,0,0.8)]" href="#masterplan"
+                <a class="text-navy hover:text-black font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow" href="#masterplan"
                     onclick="if(typeof window.gtag !== 'undefined') window.gtag('event', 'menu_click', { section: 'Masterplan' })">FASES</a>
-                <a class="text-white hover:text-sun font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow drop-shadow-[0_1px_4px_rgba(0,0,0,0.8)]" href="#investment"
+                <a class="text-navy hover:text-black font-headline font-bold text-xs tracking-widest transition-colors hover-underline-grow" href="#investment"
                     onclick="if(typeof window.gtag !== 'undefined') window.gtag('event', 'menu_click', { section: 'Inversion' })">INVERSIÓN</a>
                 
                 <button
                     onclick="document.getElementById('form-contacto').scrollIntoView({behavior: 'smooth'}); if(typeof window.gtag !== 'undefined') window.gtag('event', 'generate_lead', { method: 'Menu_Contactar' }); if(typeof window.fbq !== 'undefined') window.fbq('track', 'Lead', { content_name: 'Menu_Contactar' });"
-                    class="bg-sun text-navy px-6 py-2.5 rounded-none font-headline font-extrabold text-xs tracking-widest hover:bg-[#cda557] hover:scale-105 transition-all shadow-lg">
+                    class="bg-navy text-white px-6 py-2.5 rounded-none font-headline font-extrabold text-xs tracking-widest hover:bg-black hover:scale-105 transition-all shadow-md">
                     CONTACTAR
                 </button>
             </div>
             
             <!-- Mobile Menu Toggle Button -->
             <button onclick="document.getElementById('mobile-drawer').classList.remove('hidden');"
-                    class="lg:hidden text-white flex items-center justify-center p-2 focus:outline-none drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+                    class="lg:hidden text-navy flex items-center justify-center p-2 focus:outline-none">
                 <span class="material-symbols-outlined text-[32px]">menu</span>
             </button>
         </nav>
@@ -54,7 +54,7 @@ export function Navbar() {
             </button>
             
             <!-- Logo inside drawer -->
-            <img alt="PAQARI Logo" class="h-12 object-contain mb-4 mix-blend-screen" src="/logo-lineas-blancas.png" />
+            <img alt="PAQARI Logo" class="h-12 object-contain mb-4 mix-blend-screen" src="/logo-lineas-blancas.webp" />
             
             <!-- Links -->
             <a class="text-white/80 hover:text-white text-lg font-headline font-bold tracking-widest uppercase transition-colors" href="#project" onclick="document.getElementById('mobile-drawer').classList.add('hidden');">EL PROYECTO</a>

@@ -1,28 +1,28 @@
 export function Amenities() {
   const pillars = [
     {
-      title: 'Mirador Social',
+      title: 'Mirador Exclusivo',
       category: 'DECK & LOUNGE',
-      image: '/mirador.png',
+      image: '/mirador.webp',
       desc: 'Zona elevada con vistas de 360° para atardeceres memorables.'
     },
     {
-      title: 'Club House Privado',
-      category: 'PISCINA & BAR',
-      image: '/club_house.png',
-      desc: 'El centro social del condominio con terraza lounge y piscina.'
+      title: 'Viviendas Autosostenibles',
+      category: 'DISEÑO ECOLÓGICO',
+      image: '/club_house.webp',
+      desc: 'Casas de campo con energía solar y biodigestor, en armonía total con la selva.'
     },
     {
-      title: 'Estilo A-Frame',
-      category: 'DISEÑO & ARQUITECTURA',
-      image: '/portico_principal.png',
-      desc: 'Cabinas y viviendas sostenibles integradas con el entorno.'
+      title: 'Pórticos',
+      category: 'ACCESO & SEGURIDAD',
+      image: '/portico_principal.webp',
+      desc: 'Ingreso controlado y seguridad permanente para proteger la calma y privacidad de tu familia.'
     },
     {
-      title: 'Muelle Deportivo',
-      category: 'LAGUNA AZUL',
-      image: '/sailing_lake.png',
-      desc: 'Acceso directo para kayak, paddle surf y recreación acuática.'
+      title: 'Cercos Vivos',
+      category: 'PRIVACIDAD NATURAL',
+      image: '/cerco_vivo.webp',
+      desc: 'Protección perimétrica natural que garantiza la seguridad de tu lote y máxima privacidad.'
     }
   ];
 
@@ -55,8 +55,8 @@ export function Amenities() {
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 md:gap-6 mb-6 md:mb-14">
                 <div class="space-y-2 md:space-y-4">
                     <h2 class="text-[clamp(1.75rem,5vw,3rem)] font-headline font-extrabold leading-tight text-navy">
-                        Inspirado en el Sauce.<br/>
-                        <span class="text-sun font-serif italic lowercase tracking-tight">compartido por todos.</span>
+                        Amenidades diseñados para tu tranquilidad.<br/>
+                        <span class="text-sun font-serif italic lowercase tracking-tight">privacidad y vida autosostenible.</span>
                     </h2>
                 </div>
                 

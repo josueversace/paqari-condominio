@@ -1,12 +1,12 @@
 export function Footer() {
-  return `
+    return `
     <footer class="bg-[#0b0f13] text-white py-16 border-t border-white/5 relative z-10">
         <div class="container mx-auto px-6 space-y-12">
             
             <!-- Top Row: Logo, Links, and Social -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 border-b border-white/5 pb-12">
                 <div class="space-y-4">
-                    <img alt="PAQARI Logo" class="h-10 object-contain mix-blend-screen" src="/logo-lineas-blancas.png" />
+                    <img alt="PAQARI Logo" class="h-10 object-contain mix-blend-screen" src="/logo-lineas-blancas.webp" />
                     <p class="text-white/40 text-xs font-body uppercase tracking-widest">Diferente, Por Naturaleza</p>
                 </div>
                 
@@ -36,11 +36,11 @@ export function Footer() {
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-xs sm:text-sm text-white/60 font-body leading-relaxed">
                 <div class="space-y-2">
                     <h5 class="text-white font-headline font-bold uppercase tracking-widest text-[10px] text-sun">Ubicación</h5>
-                    <p>Condominio Paqari, Av. Leticia 512, Sauce,<br>Provincia de San Martín, San Martín, Perú.</p>
+                    <p>Ecoresidencial Paqari, Distrito El Sauce,<br>Provincia de San Martín, San Martín, Perú.</p>
                 </div>
                 <div class="space-y-2">
                     <h5 class="text-white font-headline font-bold uppercase tracking-widest text-[10px] text-sun">Contacto Comercial</h5>
-                    <p>Teléfono / WhatsApp: <a href="https://wa.me/51962387203" target="_blank" class="hover:text-sun transition-colors">+51 962 387 203</a><br>Email: <a href="mailto:hola@soypaqari.com" class="hover:text-sun transition-colors">hola@soypaqari.com</a></p>
+                    <p>WhatsApp: <a href="https://wa.me/51962387203" target="_blank" class="hover:text-sun transition-colors">+51 962 387 203</a><br>Email: <a href="mailto:paqari@grupodelare.com" class="hover:text-sun transition-colors">hola@soypaqari.com</a></p>
                 </div>
                 <div class="space-y-2">
                     <h5 class="text-white font-headline font-bold uppercase tracking-widest text-[10px] text-sun">Sobre Nosotros</h5>
